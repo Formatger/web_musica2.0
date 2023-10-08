@@ -66,12 +66,10 @@ function Media() {
     ]
 
     const videos = [
-        'https://www.youtube.com/watch?v=gV4tXJjxDa4',
-        'https://www.youtube.com/watch?v=o4mvnoW_v7k',
-        'https://www.youtube.com/watch?v=gV4tXJjxDa4',
-        'https://www.youtube.com/watch?v=o4mvnoW_v7k',
-
-        // // Agrega más URLs de imágenes según sea necesario
+        'gV4tXJjxDa4',
+        'o4mvnoW_v7k',
+        'gV4tXJjxDa4',
+        'o4mvnoW_v7k',
     ];
 
     return (

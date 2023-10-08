@@ -1,6 +1,6 @@
 .slider-container-video {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
     overflow-x: hidden;
     height: 98vh;
     border: 3px solid rgb(0, 0, 0);
@@ -9,18 +9,21 @@
 
 .slider-video {
     align-items: center;
-    width: 100vh;
-    height: 98vh;
-    display: flex;
+    justify-content: center;
     cursor: grab;
+    display: flex;
+    flex-direction: row;
 }
 
 .item-video {
-    padding: 2rem;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100vh;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
 }
+
 
 .item-video video {
     box-shadow: 3px black;
