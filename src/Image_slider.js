@@ -17,28 +17,3 @@ const ImageSlider = ({ images }) => {
 }
 
 export default ImageSlider
-
-// const ImageSlider = ({ images }) => {
-
-
-//     const settings = {
-//         infinite: true,
-//         arrows: true,
-//         speed: 500,
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//     };
-//     return (
-//         <div className="slider-container">
-//             <Slider {...settings}>
-//                 {images.map((images, index) => (
-//                     <div key={index}>
-//                         <img src={images} alt={`Slide ${index}`} />
-//                     </div>
-//                 ))}
-//             </Slider>
-//         </div>
-//     );
-// };
-
-// export default ImageSlider;

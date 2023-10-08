@@ -5,10 +5,7 @@ import { motion } from 'framer-motion';
 
 const VideoSlider = ({ videos }) => {
     const [videoIndex, setVideoIndex] = useState(0);
-
     const opts = {
-        height: '200',
-        width: '300',
         playerVars: {
             autoplay: 1,
         },

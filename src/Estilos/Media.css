@@ -1,8 +1,8 @@
 .Media {
     background-color: rgba(206, 133, 133, 0.815);
-    vertical-align:top;
+    vertical-align: top;
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
 }

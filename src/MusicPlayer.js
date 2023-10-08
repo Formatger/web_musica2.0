@@ -3,6 +3,7 @@ import { Howl } from 'howler';
 import { FaPlay, FaPause, FaForward, FaBackward } from 'react-icons/fa';
 import './Estilos/music-player.css';
 
+
 class MusicPlayer extends React.Component {
   constructor(props) {
     super(props);
@@ -125,7 +126,7 @@ class MusicPlayer extends React.Component {
       cursor: dragging ? 'grabbing' : 'grab',
       position: 'fixed',
       top: '75%',
-      right: '20%',
+      right: '10%',
     };
 
     return (

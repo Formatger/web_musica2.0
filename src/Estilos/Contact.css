@@ -1,5 +1,38 @@
-.Contact{
-    background-color: rgb(0, 0,0,0.5);
+.Contact {
+    background-color: rgb(0, 0, 0, 0.5);
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Contact-linea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 25%;
+}
+
+.Contact-emoji {
+    cursor: pointer;
+    width: 8%;
+    height: auto%;
+    padding:
+
+
+}
+
+.Contact-letra {
+    display: flex;
+    text-align: center;
+    text-shadow: 2px 0px 7px rgb(222, 209, 209);
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
 }

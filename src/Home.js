@@ -7,7 +7,7 @@ function Home() {
         <div className="Cover">
             <h className='First_sentence'>
                 "Music is like people: <br />
-                everybody has got a different tone <br />
+                everybody has a different tone <br />
                 and all of them are unique"
             </h>
         </div>

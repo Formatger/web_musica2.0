@@ -3,7 +3,7 @@
     margin-right: 6rem;
     margin-bottom: 2vh;
     overflow-x: hidden;
-    height: 49vh;
+    height: 98vh;
     border: 3px solid rgb(0, 0, 0);
     box-shadow: 0px 5px 10px black;
 }
@@ -11,7 +11,6 @@
 .slider {
     align-items: center;
     width: auto;
-    height: 50vh;
     display: flex;
     cursor: grab;
 }
@@ -19,14 +18,15 @@
 .item {
     padding: 2rem;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
 }
 
 .item img {
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: auto;
-    object-fit: cover;
+    display: flex;
+    max-height: 90vh;
+    object-fit: contain;
     pointer-events: none;
+    border: 2px black;
 
 }

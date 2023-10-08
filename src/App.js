@@ -18,8 +18,14 @@ function App() {
   }
 
   const audio = [
-    '/3.mp3',
-    '/2.mp3',
+    "/audio/2013 - Nits d'Estiu - El Secret De París.mp3",
+    "/audio/2016 - Guerra - Marcos Franz.mp3",
+    "/audio/2015 - No Tenemos Cura - Zarigüeya.mp3",
+    "/audio/2016 - No Et Vull Deixar Marxar - Marcos Franz.mp3",
+    "/audio/2014 - Come On Kill Me - Full equip.mp3",
+    "/audio/2013 - Mira't - El Secret De París.mp3",
+    "/audio/2015 - Salta - Zarigüeya.mp3",
+
   ]
 
   return (
