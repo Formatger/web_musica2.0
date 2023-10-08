@@ -1,0 +1,12 @@
+.Toolbar-nombre2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Arial Narrow';
+    font-style: italic;
+    letter-spacing: 3px;
+    color: bisque;
+    margin-left: 20px;
+}

@@ -1,0 +1,7 @@
+.Toolbar-button {
+    background-color: transparent;
+    display: flex;
+    width: 200vh;
+    text-align: center;
+    justify-content: center;
+}

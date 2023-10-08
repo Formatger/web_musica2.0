@@ -1,0 +1,8 @@
+.Toolbar-nombre {
+    display: flex;
+    margin: 0;
+    width: 50vh;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
