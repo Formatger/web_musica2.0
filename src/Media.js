@@ -67,9 +67,13 @@ function Media() {
 
     const videos = [
         'gV4tXJjxDa4',
+        'zXmk-QT-Vlk',
         'o4mvnoW_v7k',
-        'gV4tXJjxDa4',
-        'o4mvnoW_v7k',
+        '8u9YkOMAepM',
+        'BmFGFuQfmXE',
+        '0z2_PgYmNKk',
+        '0_Vu68eAED0',
+
     ];
 
     return (

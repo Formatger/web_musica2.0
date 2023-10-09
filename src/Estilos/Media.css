@@ -1,8 +1,9 @@
 .Media {
-    background-color: rgba(206, 133, 133, 0.815);
+    background-image: url('/public/fotos/25.JPG');
     vertical-align: top;
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 200vh;
+    background-size: contain;
 }

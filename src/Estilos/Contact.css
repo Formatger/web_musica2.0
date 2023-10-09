@@ -1,5 +1,6 @@
 .Contact {
-    background-color: rgb(0, 0, 0, 0.5);
+    background-image: url('/public/fotos/40.jpg');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     display: flex;
