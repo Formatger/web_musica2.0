@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url('/public/fonts/PixelifySans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Young';
+    src: url('/public/fonts/YoungSerif-Regular.ttf') format('truetype');
+}

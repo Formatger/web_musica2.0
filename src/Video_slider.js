@@ -9,7 +9,6 @@ const VideoSlider = ({ videos }) => {
     const opts = {
         playerVars: {
             autoplay: 0,
-            style: 'border: 2px solid white;'
         },
     };
     return (

@@ -1,6 +1,7 @@
 import './Estilos/App.css';
 import './Estilos/Toolbar.css';
 import './Estilos/Cover.css';
+import './Estilos/fuentes.css'
 import Toolbar from './Toolbar';
 import Home from './Home';
 import About from './About';

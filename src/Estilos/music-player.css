@@ -1,22 +1,29 @@
 .music-player {
-  position: fixed;
   display: flex;
   flex-direction: column;
-  justify-items: center;
   align-items: center;
-  background: linear-gradient(to bottom right, #1b5e0a, #28e522);
-  border: 1px solid #010101;
+  background-image: url('/public/fotos/audio.JPG');
+  background-size: cover;
+  background-position: -100% 55%;
+  border: 1px solid #ffffff;
   border-radius: 40px;
   padding: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  cursor: grab;
-  width: 250px;
-  box-shadow: 2px 2px 4px rgba(154, 159, 10, 0.9),
-    2px -2px 4px rgba(154, 159, 10, 0.9),
-    -2px -2px 4px rgba(154, 159, 10, 0.9),
-    -2px 2px 4px rgba(154, 159, 10, 0.9);
+  width: 18%;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.9),
+    2px -2px 10px rgba(255, 255, 255, 0.9),
+    -2px -2px 10px rgba(255, 255, 255, 0.9),
+    -2px 2px 10px rgba(255, 255, 255, 0.9);
 }
+
+.music-player-titulo {
+  font-family: Pixel;
+  font-size: 200%;
+  text-align: center;
+  color: wheat;
+  margin-top: 1%;
+}
+
 
 .music-player .controls {
   display: flex;
@@ -25,9 +32,8 @@
 }
 
 .music-player button {
-  /* Estilos para el botón del reproductor */
-  background-color: #ffffff;
-  color: #246a0c;
+  background-color: #050358;
+  color: #ffffff;
   border: none;
   border-radius: 50%;
   font-size: 24px;
@@ -39,7 +45,6 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin: 0 5px;
-  /* Espacio entre los botones */
 }
 
 .music-player button:hover {
@@ -53,4 +58,5 @@
 .music-player .song-info {
   margin-top: 10px;
   text-align: center;
+  color: #ffffff;
 }

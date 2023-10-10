@@ -131,7 +131,7 @@ class MusicPlayer extends React.Component {
 
     return (
       <div className="music-player" style={style} onMouseDown={this.onMouseDown}>
-        <h4>Albert Formatger playlist</h4>
+        <h4 className='music-player-titulo'>PLAYLIST</h4>
         <div className="controls">
           <button onClick={this.playPreviousTrack}>
             <FaBackward />
