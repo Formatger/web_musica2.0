@@ -1,6 +1,7 @@
 .Contact {
     background-image: url('/public/fotos/40.jpg');
     background-size: cover;
+    background-position-y: 30%;    
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -19,18 +20,26 @@
 }
 
 .Contact-emoji {
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
     width: 8%;
-    height: auto%;
-    padding:
-
-
+    height: auto;
+    border-radius: 25%;
+    box-shadow: 10px 10px 7px rgb(255, 255, 255),
+                -10px 10px 7px rgb(255, 255, 255),
+                10px -10px 7px rgb(255, 255, 255),
+                -10px -10px 7px rgb(255, 255, 255);
 }
+
+
 
 .Contact-letra {
     display: flex;
     text-align: center;
-    text-shadow: 2px 0px 7px rgb(222, 209, 209);
+    text-shadow: 10px 0px 7px rgb(255, 255, 255),
+    -10px 0px 7px rgb(255, 255, 255),
+    0px 10px 7px rgb(255, 255, 255),
+    0px -10px 7px rgb(255, 255, 255);
     font-size: 150%;
     justify-content: center;
     align-items: center;

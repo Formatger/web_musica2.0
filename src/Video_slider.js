@@ -9,6 +9,7 @@ const VideoSlider = ({ videos }) => {
     const opts = {
         playerVars: {
             autoplay: 0,
+            style: 'border: 2px solid white;'
         },
     };
     return (
@@ -25,30 +26,3 @@ const VideoSlider = ({ videos }) => {
 };
 
 export default VideoSlider;
-
-
-
-// import React, { useState, useEffect } from 'react';
-// import ReactPlayer from 'react-player';
-// import './Estilos/slider-container-video.css';
-// import { motion } from 'framer-motion';
-
-
-
-
-
-
-//     return (
-//         <motion.div className='slider-container-video'>
-//             <motion.div className='slider-video' drag='x' dragConstraints={{ right: 0 }}>
-//                 {videos.map((video, index) => (
-//                     <motion.div className='item-video' key={index}>
-//                         <ReactPlayer url={`https://www.youtube.com/watch?v=${video}`} controls={true} opts={opts} />
-//                     </motion.div>
-//                 ))}
-//             </motion.div>
-//         </motion.div>
-//     );
-// };
-
-// export default VideoSlider;

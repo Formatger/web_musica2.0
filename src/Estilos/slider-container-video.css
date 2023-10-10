@@ -20,18 +20,9 @@
 .item-video {
     display: flex;
     width: auto;
+    max-height: 90%;
     padding: 2rem;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-}
-
-
-.item-video video {
-    display: flex;
-    width: auto;
-    object-fit: cover;
-    pointer-events: none;
-    border: 2px black;
-
 }
