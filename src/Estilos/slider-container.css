@@ -17,6 +17,7 @@
 }
 
 .item {
+    user-select: none;
     padding: 2rem;
     /* box-sizing: border-box; */
     align-items: center;
@@ -24,6 +25,7 @@
 }
 
 .item img {
+    user-select: none;
     display: flex;
     max-height: 85vh;
     object-fit: contain;

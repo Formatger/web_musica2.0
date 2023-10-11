@@ -27,19 +27,35 @@ const Toolbar = (props) => {
     }, []);
 
     useEffect(() => {
-        window.addEventListener('scroll', function () {
+        let timeout;
+    
+        const handleScroll = () => {
             var toolbar = document.querySelector('.Toolbar');
-
+    
+            
             if (window.scrollY > 0) {
-                toolbar.style.backgroundColor = 'rgba(0, 128, 0, 0.4)'; // Cambia 'aqua' al color de fondo deseado
-                toolbar.style.borderBottom = '3px solid black'; // Cambia 'black' al color del borde deseado
-            } else {
-                toolbar.style.backgroundColor = 'transparent';
-                toolbar.style.borderBottom = 'none';
+                toolbar.style.backgroundColor = 'rgba(0, 128, 0, 0.4)';
+                toolbar.style.borderBottom = '3px solid black';
+    
+                
+                if (timeout) {
+                    clearTimeout(timeout);
+                }
+    
+                
+                timeout = setTimeout(() => {
+                    toolbar.style.backgroundColor = 'transparent';
+                    toolbar.style.borderBottom = 'none';
+                }, 1000);
             }
-        });
-    }, []); // Asegúrate de que este efecto solo se ejecute una vez al montar el componente
-
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const scrollToSection = (ref) => {
         if (ref.current) {
