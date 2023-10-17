@@ -68,7 +68,7 @@ export default ImageSlider;
 //     useEffect(() => {
 //         const interval = setInterval(() => {
 //             // Ajusta el valor de 5 para cambiar la velocidad del movimiento (en píxeles por intervalo)
-//             setSliderPosition(prevPosition => (prevPosition + 0.1) % (images.length * 100)); 
+//             setSliderPosition(prevPosition => (prevPosition + 0.1) % (images.length * 100));
 //         }, 12); // 60 cuadros por segundo (1000ms / 60fps = 16.67ms por intervalo)
 
 //         return () => {
