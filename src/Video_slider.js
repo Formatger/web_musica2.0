@@ -6,11 +6,19 @@ import { motion } from 'framer-motion';
 const VideoSlider = ({ videos }) => {
     const [videoIndex, setVideoIndex] = useState(0);
 
+
+
+    const newWidth = 1000; // Nuevo ancho del visor del video
+    const newHeight = (newWidth / 16) * 9; // Calcula la altura para mantener la relación de aspecto 16:9
+
     const opts = {
+        width: newWidth.toString(),  // Convierte el ancho a cadena y asigna al atributo width
+        height: newHeight.toString(),
         playerVars: {
             autoplay: 0,
         },
     };
+
     return (
         <motion.div className='slider-container-video'>
             <motion.div className='slider-video ' drag='x' dragConstraints={{ right: 0 }}>

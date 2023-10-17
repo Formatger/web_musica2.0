@@ -10,9 +10,9 @@ const ImageSlider = ({ images }) => {
     useEffect(() => {
         const interval = setInterval(() => {
             if (!isDragging) {
-                setSliderPosition(prevPosition => (prevPosition + 0.1) % 100);
+                setSliderPosition(prevPosition => (prevPosition + 0.005) % 100);
             }
-        }, 12);
+        }, 16);
 
         return () => {
             clearInterval(interval);
@@ -27,7 +27,7 @@ const ImageSlider = ({ images }) => {
     const handleDragMove = (event) => {
         if (isDragging) {
             const dragDistance = event.clientX - dragStartX;
-            setSliderPosition(prevPosition => (prevPosition - dragDistance * 0.1) % (images.length * 100));
+            setSliderPosition(prevPosition => (prevPosition - dragDistance * 0.005) % (images.length * 100));
             setDragStartX(event.clientX);
         }
     };
