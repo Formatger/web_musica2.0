@@ -1,8 +1,18 @@
 .Cover {
-    display: flex;
-    background-image: url('/public/fotos/fondo2.jpg');
-    background-size: cover;
-    margin-top: -5rem;
+    position: relative;
     width: 100vw;
-    height: 129vh;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }

@@ -7,3 +7,18 @@
     font-family: 'Young';
     src: url('/public/fonts/YoungSerif-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Babylonica';
+    src: url('/public/fonts/Babylonica-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url('/public/fonts/Staatliches-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist-semibold';
+    src: url('/public/fonts/Urbanist-SemiBold.ttf') format('truetype');
+}

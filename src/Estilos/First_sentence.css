@@ -1,13 +1,22 @@
+.First_sentence_block {
+    background-color: rgb(228, 220, 220);
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .First_sentence {
-    margin-top: 30%;
-    margin-left: 11%;
-    font-family: Young;
-    font-size: 187%;
-    font-style: italic;
+    width: 50vw;
+    display: flex;
     text-align: center;
-    color: rgb(0, 0, 0);
-    text-shadow: 10px 10px 10px rgb(43, 213, 43),
-        -10px 10px 10px rgb(43, 213, 43),
-        -10px -10px 10px rgb(43, 213, 43),
-        10px -10px 10px rgb(43, 213, 43);
+    justify-content: center;
+    color: white;
+    font-family: 'Urbanist-semibold';
+    font-size: 23px;
+    letter-spacing: .4rem;
 }

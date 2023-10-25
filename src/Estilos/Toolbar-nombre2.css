@@ -1,12 +1,9 @@
 .Toolbar-nombre2 {
-    width: 300px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Arial Narrow';
-    font-style: italic;
+    width: 100%;
+    font-size: 64px;
+    font-family: 'Babylonica';
     letter-spacing: 3px;
-    color: bisque;
-    margin-left: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 140px;
 }

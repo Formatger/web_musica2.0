@@ -28,30 +28,29 @@ const Toolbar = (props) => {
 
     useEffect(() => {
         let timeout;
-    
+
         const handleScroll = () => {
             var toolbar = document.querySelector('.Toolbar');
-    
-            
+
+
             if (window.scrollY > 0) {
-                toolbar.style.backgroundColor = 'rgba(0, 128, 0, 0.4)';
-                toolbar.style.borderBottom = '3px solid black';
-    
-                
+                toolbar.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+
+
                 if (timeout) {
                     clearTimeout(timeout);
                 }
-    
-                
+
+
                 timeout = setTimeout(() => {
                     toolbar.style.backgroundColor = 'transparent';
                     toolbar.style.borderBottom = 'none';
                 }, 1000);
             }
         };
-    
+
         window.addEventListener('scroll', handleScroll);
-    
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
@@ -75,6 +74,7 @@ const Toolbar = (props) => {
             <div className='Toolbar-button'>
                 <a className='Button-style' onClick={() => scrollToSection(references.homeRef)}>Home</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.aboutMeRef)}>Bio</a>
+                <a className='Button-style' onClick={() => scrollToSection(references.sercieMeRef)}>Servicios</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.mediaRef)}>Media</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.contactRef)}>Contact</a>
             </div>
