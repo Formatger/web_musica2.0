@@ -5,7 +5,7 @@ import './Estilos/First_sentence.css';
 function Home() {
     return (
         <div className="Cover">
-            <video className="video-background" autoPlay loop playsInline
+            <video className="video-background" autoPlay muted loop playsInline
                 src="/fotos/Vid1.mp4">
             </video>
             <h className='First_sentence_block'>

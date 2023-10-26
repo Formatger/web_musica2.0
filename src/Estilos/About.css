@@ -1,7 +1,68 @@
 .About {
     display: flex;
     flex-direction: row;
-    height: 100vh;
     width: 100vw;
-    background-color: bisque;
+    height: 100vh;
+    background-color: white;
+}
+
+.Title {
+    font-family: 'Urbanist-Black';
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+    font-size: 3rem;
+    padding-top: 6rem;
+    padding-left: 6rem;
+
+}
+
+.contenido {
+    width: 67%;
+    height: auto;
+    font-family: 'Montserrat-Regular';
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    padding-left: 6rem;
+}
+
+.contenedor-contenido {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 6rem;
+}
+
+.Descripcion {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Foto_desc {
+    background-image: url('/public/fotos/fondo.jpg');
+    background-size: cover;
+    background-position: right center;
+    width: 50vw;
+    height: auto;
+}
+
+.contenedor-icon{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    padding-top: 50px;
+}
+
+.contenedor-icon img{
+    width:1;
+    margin-right: 40px;
+    cursor: pointer;
 }

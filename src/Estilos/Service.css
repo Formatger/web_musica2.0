@@ -1,0 +1,52 @@
+
+.Service-container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.Title-service{
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Urbanist-Bold';
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+} 
+.container-card{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: blue;
+    width: 33.3vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    padding:0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.card-text{
+    position: relative;
+    top: 0;
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    padding:0;
+    margin: 0;
+}

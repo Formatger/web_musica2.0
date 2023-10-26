@@ -5,15 +5,17 @@ import './Estilos/fuentes.css'
 import Toolbar from './Toolbar';
 import Home from './Home';
 import About from './About';
+import Service from './Service';
 import Media from './Media';
 import Contact from './Contact';
 import MusicPlayer from './MusicPlayer';
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useRef } from 'react';
 
 function App() {
   const ref = {
     homeRef: useRef(null),
     aboutMeRef: useRef(null),
+    serviceRef: useRef(null),
     mediaRef: useRef(null),
     contactRef: useRef(null),
   }
@@ -40,6 +42,9 @@ function App() {
       </div>
       <div ref={ref.aboutMeRef}>
         <About />
+      </div>
+      <div ref={ref.serviceRef}>
+        <Service />
       </div>
       <div ref={ref.mediaRef}>
         <Media />

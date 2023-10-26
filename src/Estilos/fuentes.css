@@ -22,3 +22,18 @@
     font-family: 'Urbanist-semibold';
     src: url('/public/fonts/Urbanist-SemiBold.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Urbanist-Bold';
+    src: url('/public/fonts/Urbanist-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist-Black';
+    src: url('/public/fonts/Urbanist-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('/public/fonts/Montserrat-Regular.ttf') format('truetype');
+}

@@ -1,11 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './Estilos/Toolbar.css';
-import './Estilos/Toolbar-button.css';
-import './Estilos/Button-style.css';
-import './Estilos/Toolbar-nombre.css';
-import './Estilos/Toolbar-nombre2.css';
-
-
 
 const Toolbar = (props) => {
     const [isSticky, setIsSticky] = useState(false);
@@ -74,7 +68,7 @@ const Toolbar = (props) => {
             <div className='Toolbar-button'>
                 <a className='Button-style' onClick={() => scrollToSection(references.homeRef)}>Home</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.aboutMeRef)}>Bio</a>
-                <a className='Button-style' onClick={() => scrollToSection(references.sercieMeRef)}>Servicios</a>
+                <a className='Button-style' onClick={() => scrollToSection(references.serviceRef)}>Servicios</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.mediaRef)}>Media</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.contactRef)}>Contact</a>
             </div>
