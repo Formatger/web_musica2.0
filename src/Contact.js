@@ -15,18 +15,21 @@ function Contact() {
     };
 
     return (
-        <div className="Contact">
-            <div className="Contact-linea">
-                <img className="Contact-emoji" src='/icon/email.png' alt="Correo Electrónico" onClick={abrirCorreo} />
-                <h1 className="Contact-letra">albert_furma@hotmail.com</h1>
-            </div>
-            <div className="Contact-linea">
-                <img className="Contact-emoji" src='/icon/instagram.png' alt="Instagram" onClick={abrirInstagram} />
-                <h1 className="Contact-letra">@albertformatger</h1>
-            </div>
-            <div className="Contact-linea" >
-                <img className="Contact-emoji" src='/icon/youtube.png' alt="YouTube" onClick={abrirYouTube} />
-                <h1 className="Contact-letra">@Albertormatger</h1>
+        <div className="Contact-container">
+            <div className="Contact">
+                <h className='Title-contact'>CONTACTO</h>
+                <div className="Contact-linea">
+                    <img className="Contact-emoji" src='/icon/email.png' alt="Correo Electrónico" onClick={abrirCorreo} />
+                    <h1 className="Contact-letra">albert_furma@hotmail.com</h1>
+                </div>
+                <div className="Contact-linea">
+                    <img className="Contact-emoji" src='/icon/instagram.png' alt="Instagram" onClick={abrirInstagram} />
+                    <h1 className="Contact-letra">@albertformatger</h1>
+                </div>
+                <div className="Contact-linea" >
+                    <img className="Contact-emoji" src='/icon/youtube.png' alt="YouTube" onClick={abrirYouTube} />
+                    <h1 className="Contact-letra">@Albertormatger</h1>
+                </div>
             </div>
         </div>
     );

@@ -1,48 +1,65 @@
-.Contact {
+.Contact-container {
+    background-color: black;
     background-image: url('/public/fotos/40.jpg');
-    background-size: cover;
-    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-y: -100px;
+    background-position-x: 400px;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+}
+
+.Contact {
+    background-color: rgba(0, 0, 0, 0.424);
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title-contact{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    position: relative;
+    top:180px;
+    left:180px;
+    color: white;
+    font-family: 'Urbanist-Bold';
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
 }
 
 .Contact-linea {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 70%;
-    height: 25%;
+    position: relative;
+    top:180px;
+    margin-bottom: 70px;
+    left:180px;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
 }
 
 .Contact-emoji {
-    background-color: rgb(255, 255, 255);
     cursor: pointer;
-    width: 8%;
+    width: 70px;
     height: auto;
-    border: 2px solid black;
-    border-radius: 25%;
-    box-shadow: 10px 10px 7px rgb(255, 255, 255),
-        -10px 10px 7px rgb(255, 255, 255),
-        10px -10px 7px rgb(255, 255, 255),
-        -10px -10px 7px rgb(255, 255, 255);
 }
-
-
 
 .Contact-letra {
     display: flex;
     text-align: center;
-    text-shadow: 10px 0px 7px rgb(255, 255, 255),
-        -10px 0px 7px rgb(255, 255, 255),
-        0px 10px 7px rgb(255, 255, 255),
-        0px -10px 7px rgb(255, 255, 255);
-    font-size: 150%;
-    justify-content: center;
+    font-family: 'Urbanist-ExtraLight';
+    font-size: 1.3rem;
+    letter-spacing: 0.18rem;
+    color:white;
+    justify-content: left;
+    margin-left: 65px;
     align-items: center;
     width: 50%;
     height: auto;

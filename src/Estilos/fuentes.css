@@ -29,8 +29,23 @@
 }
 
 @font-face {
+    font-family: 'Urbanist-Regular';
+    src: url('/public/fonts/Urbanist-Regular.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Urbanist-Black';
     src: url('/public/fonts/Urbanist-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist-Light';
+    src: url('/public/fonts/Urbanist-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist-ExtraLight';
+    src: url('/public/fonts/Urbanist-ExtraLight.ttf') format('truetype');
 }
 
 @font-face {

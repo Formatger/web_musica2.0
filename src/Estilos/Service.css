@@ -5,7 +5,7 @@
     height: 100vh;
 }
 .Title-service{
-    height: 170px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,41 +19,61 @@
     width: auto;
     height: 80%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    margin-left: 300px;
-    margin-right: 300px;
 }
 
 .card {
-    background-color: blue;
-    width: 33.3%;
+    position: relative;
+    top:0;
+    min-width: 359px;
+    max-width: 359px ;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-right: 45px;
 }
 
 .card-image{
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 239px;
 }
 
 .card-image img{
     width: 100%;
     height: 100%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
 }
 
 .card-text{
     position: relative;
     top: 0;
-    width: 400px;
-    height: 330px;
-    background-color: aqua;
+    width: 100%;
+    height: 348px;
+    background-color: white;
     padding:0;
     margin: 0;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.title-card{
+    font-family: 'Urbanist-Bold';
+    font-size: 1.5rem;
+    margin-left: 50px;
+    display: flex;
+    padding-top: 25px;
+}
+
+.into-card {
+    width: 250px;
+    font-family: 'Urbanist-Regular';
+    font-size: 1rem;
+    margin-left: 50px;
+    display: flex;
+    padding-top: 10px;
+
 }
