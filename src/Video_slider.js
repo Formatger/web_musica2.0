@@ -1,5 +1,5 @@
 import YouTube from 'react-youtube';
-import './Estilos/slider-container-video.css';
+import './Estilos/Media.css';
 import { motion } from 'framer-motion';
 
 const VideoSlider = ({ videos }) => {

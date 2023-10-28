@@ -2,45 +2,43 @@ import React, { useEffect, useState, useRef } from 'react';
 import './Estilos/Toolbar.css';
 
 const Toolbar = (props) => {
-    const [isSticky, setIsSticky] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 0) {
-                setIsSticky(true);
-            } else {
-                setIsSticky(false);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     useEffect(() => {
         let timeout;
+        let lastScrollTop = 0;
 
         const handleScroll = () => {
             var toolbar = document.querySelector('.Toolbar');
+            var nombre = document.querySelector('.Toolbar-nombre2');
+            var button = document.querySelectorAll('.Button-style');
 
-
-            if (window.scrollY > 0) {
-                toolbar.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
-
-
+            if (window.scrollY > lastScrollTop) {
+                toolbar.style.backgroundColor = 'rgba(0, 0, 0,1)';
                 if (timeout) {
                     clearTimeout(timeout);
                 }
 
-
                 timeout = setTimeout(() => {
-                    toolbar.style.backgroundColor = 'transparent';
-                    toolbar.style.borderBottom = 'none';
+                    toolbar.style.opacity = '0';
+                    toolbar.style.height = '0';
+                    nombre.style.fontSize = '0';
+                    button.forEach(button => {
+                        button.style.fontSize = '0';
+                    });
                 }, 1000);
             }
+            else {
+                toolbar.style.opacity = '1';
+                toolbar.style.height = '100px';
+                nombre.style.fontSize = '64px';
+                button.forEach(button => {
+                    button.style.fontSize = '30px';
+                });
+                if (timeout) {
+                    clearTimeout(timeout);
+                }
+            }
+            lastScrollTop = window.scrollY;
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -67,7 +65,7 @@ const Toolbar = (props) => {
             </div>
             <div className='Toolbar-button'>
                 <a className='Button-style' onClick={() => scrollToSection(references.homeRef)}>Home</a>
-                <a className='Button-style' onClick={() => scrollToSection(references.aboutMeRef)}>Bio</a>
+                <a className='Button-style' onClick={() => scrollToSection(references.aboutMeRef)}>Sobre mí</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.serviceRef)}>Servicios</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.mediaRef)}>Media</a>
                 <a className='Button-style' onClick={() => scrollToSection(references.contactRef)}>Contact</a>

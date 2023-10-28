@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Estilos/slider-container.css';
+import './Estilos/Media.css';
 import { motion } from 'framer-motion';
 
 const ImageSlider = ({ images }) => {
