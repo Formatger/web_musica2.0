@@ -9,9 +9,10 @@ import Service from './Service';
 import Media from './Media';
 import Contact from './Contact';
 import MusicPlayer from './MusicPlayer';
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 
 function App() {
+
   const ref = {
     homeRef: useRef(null),
     aboutMeRef: useRef(null),

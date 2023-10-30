@@ -2,42 +2,64 @@ import React, { useEffect, useState, useRef } from 'react';
 import './Estilos/Toolbar.css';
 
 const Toolbar = (props) => {
-
     useEffect(() => {
         let timeout;
         let lastScrollTop = 0;
-
         const handleScroll = () => {
+
             var toolbar = document.querySelector('.Toolbar');
             var nombre = document.querySelector('.Toolbar-nombre2');
             var button = document.querySelectorAll('.Button-style');
 
-            if (window.scrollY > lastScrollTop) {
-                toolbar.style.backgroundColor = 'rgba(0, 0, 0,1)';
+            if (window.scrollY === 0) {
                 if (timeout) {
                     clearTimeout(timeout);
                 }
 
                 timeout = setTimeout(() => {
-                    toolbar.style.opacity = '0';
-                    toolbar.style.height = '0';
-                    nombre.style.fontSize = '0';
+                    toolbar.style.backgroundColor = 'rgba(0, 0, 0,0)';
+                    toolbar.style.height = '100px';
+                    nombre.style.fontSize = '64px';
                     button.forEach(button => {
-                        button.style.fontSize = '0';
+                        button.style.fontSize = '30px'
                     });
-                }, 1000);
+                }, 750);
             }
+
             else {
-                toolbar.style.opacity = '1';
-                toolbar.style.height = '100px';
-                nombre.style.fontSize = '64px';
-                button.forEach(button => {
-                    button.style.fontSize = '30px';
-                });
-                if (timeout) {
-                    clearTimeout(timeout);
+                if (window.scrollY > lastScrollTop) {
+                    toolbar.style.backgroundColor = 'rgba(0, 0, 0,1)';
+                    if (timeout) {
+                        clearTimeout(timeout);
+                    }
+
+                    timeout = setTimeout(() => {
+                        toolbar.style.height = '0px';
+                        nombre.style.fontSize = '0';
+                        button.forEach(button => {
+                            button.style.fontSize = '0';
+                        });
+                    }, 750);
+                }
+                else {
+                    toolbar.style.height = '100px';
+                    nombre.style.fontSize = '64px';
+                    button.forEach(button => {
+                        button.style.fontSize = '30px';
+                    });
+                    if (timeout) {
+                        clearTimeout(timeout);
+                    }
+                    timeout = setTimeout(() => {
+                        toolbar.style.height = '0px';
+                        nombre.style.fontSize = '0';
+                        button.forEach(button => {
+                            button.style.fontSize = '0';
+                        });
+                    }, 750);
                 }
             }
+
             lastScrollTop = window.scrollY;
         };
 
@@ -46,7 +68,8 @@ const Toolbar = (props) => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    },
+    );
 
     const scrollToSection = (ref) => {
         if (ref.current) {

@@ -25,7 +25,7 @@ function Service() {
                 </div>
                 <div className='card' >
                     <div className='card-image' >
-                        <img src='/fotos/25.JPG' />
+                        <img src='/fotos/servicios_clases.png' />
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>

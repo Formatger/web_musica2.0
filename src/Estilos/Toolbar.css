@@ -7,8 +7,21 @@
     border-bottom: none;
     top: 0;
     z-index: 999;
-    transition: background-color 1.5s ease, opacity 1.5s ease, height 1.5s ease;
+    transition: background-color .5s ease, opacity 1.5s ease, height 1.5s ease;
+
 }
+
+.no-transition {
+    background-color: transparent;
+    display: flex;
+    position: fixed;
+    min-width: 100vw;
+    height: 100px;
+    border-bottom: none;
+    top: 0;
+    z-index: 999;
+}
+
 
 .Toolbar-nombre {
     display: flex;
