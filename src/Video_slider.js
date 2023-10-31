@@ -1,15 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Flickity from "react-flickity-component";
 import './Estilos/Media.css';
-import YouTube from 'react-youtube';
 
 function VideoSlider({ videos }) {
 
     const flickityOptions = {
+        grabbing:true,
+        initialIndex: 1,
         wrapAround: true,
-        pageDots: false,
+        selectedAttraction: 0.01,
+        autoPlay: 7000,
         pauseAutoPlayOnHover: false,
+        pageDots: true,
         arrowShape: {
             x0: 30,
             x1: 65, y1: 35,
@@ -18,28 +20,26 @@ function VideoSlider({ videos }) {
         }
     }
 
-    // const newWidth = 1000; // Nuevo ancho del visor del video
-    // const newHeight = (newWidth / 16) * 9; // Calcula la altura para mantener la relación de aspecto 16:9
-    const opts = {
-        // width: newWidth.toString(),  // Convierte el ancho a cadena y asigna al atributo width
-        // height: newHeight.toString(),
-        playerVars: {
-            autoplay: 0,
-        },
-    }
 
     return (
-        <div className="slider-container-video" >
-            <h className='Title-media'>LIVE MEDIA</h>
-            <Flickity
+        <div className="slider-container-video">
+            <h1 className="Title-media">VIDEOS</h1>
+            <div className="video-container">
+                <Flickity
                 className={'video'}
-                options={flickityOptions}
-            >
-                {videos.map((video, index) => (
-                    <YouTube className='item-video' videoId={video} opts={opts} />
-                ))}
-            </Flickity>
-        </div >
+                    options={flickityOptions}
+                >
+                    {videos.map((video, index) => (
+                        <iframe
+                            key={index}
+                            title={`video-${index}`}
+                            src={`https://www.youtube.com/embed/${video}`}
+                            allowFullScreen
+                        />
+                    ))}
+                </Flickity>
+            </div>
+        </div>
     );
 }
 

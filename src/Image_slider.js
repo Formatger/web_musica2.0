@@ -3,13 +3,14 @@ import ReactDOM from "react-dom";
 import Flickity from "react-flickity-component";
 import './Estilos/Media.css';
 
-function Carousel({ images }) {
+function Carousel({ images}) {
 
     const flickityOptions = {
         initialIndex: 3,
         wrapAround: true,
-        autoPlay: 2500,
         selectedAttraction: 0.01,
+        autoPlay:true,
+        prevNextButtons: true,
         pageDots: false,
         pauseAutoPlayOnHover: false,
         arrowShape: {
@@ -22,18 +23,18 @@ function Carousel({ images }) {
 
     }
     return (
-        <div className="carousel-container">
-            <h className='Title-media'>LIVE MEDIA</h>
-            <Flickity
+        <div className="fotos-container">
+            <h1 className='Title-media'>LIVE MEDIA</h1>
+            <div className="carousel-container">
+                <Flickity
                 className={'fotos'}
                 options={flickityOptions}
-            >
-                {images.map((image, index) => (
-                    <div className='item' key={index}>
-                        <img src={image} alt="" />
-                    </div>
-                ))}
-            </Flickity>
+                >
+                    {images.map((image, index) => (
+                            <img src={image} alt="" />
+                    ))}
+                </Flickity>
+            </div>
         </div>
     );
 }
