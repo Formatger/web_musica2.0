@@ -28,8 +28,8 @@
 .card {
     position: relative;
     top: 0;
-    min-width: 359px;
-    max-width: 359px;
+    min-width: 415px;
+    max-width: 415px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
 
 .card-image {
     width: 100%;
-    height: 25vh;
+    height: 28vh;
 }
 
 .card-image img {
@@ -76,4 +76,101 @@
     font-size: 1rem;
     display: flex;
     margin-left: 24px;
+}
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .Service-container {
+        background-color: black;
+        width: 100%;
+        height: auto;
+    }
+
+    .Title-service {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: 'Urbanist-Bold';
+        font-size: 12vw;
+        letter-spacing: 0.3rem;
+    }
+
+    .container-card {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card {
+        position: relative;
+        top: 0;
+        width: auto;
+        min-width: 0;
+        max-width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 80px;
+        padding: 0 5vw;
+    }
+
+    .card-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+
+    .card-text {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+
+    .title-card {
+        font-family: 'Urbanist-Bold';
+        font-size: 1.5rem;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    .into-card {
+        width: 100%;
+        font-family: 'Urbanist-Regular';
+        font-size: 1rem;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding: 0px;
+        margin-left: 0;
+    }
+
 }

@@ -31,6 +31,9 @@ function Contact() {
                     <h1 className="Contact-letra">@Albertormatger</h1>
                 </div>
             </div>
+            <div className="foto-final-movil">
+
+            </div>
         </div>
     );
 }

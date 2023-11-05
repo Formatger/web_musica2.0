@@ -1,6 +1,5 @@
 import React from "react";
 import './Estilos/Home.css';
-import './Estilos/First_sentence.css';
 
 function Home() {
     return (

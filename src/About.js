@@ -17,8 +17,6 @@ function About() {
 
     return (
         <div className="About">
-            <div className="Foto_desc">
-            </div>
             <div className="Descripcion">
                 <h className='Title'>SOBRE MÍ</h>
                 <div className="contenedor-contenido">
@@ -43,6 +41,8 @@ function About() {
                         </div>
                     </a>
                 </div>
+            </div>
+            <div className="Foto_desc">
             </div>
         </div>
     );

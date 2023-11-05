@@ -5,8 +5,8 @@ import './Estilos/Media.css';
 function VideoSlider({ videos }) {
 
     const flickityOptions = {
-        grabbing:true,
-        initialIndex: 1,
+        grabbing: true,
+        initialIndex: 2,
         wrapAround: true,
         selectedAttraction: 0.01,
         autoPlay: 7000,
@@ -26,7 +26,7 @@ function VideoSlider({ videos }) {
             <h1 className="Title-media">VIDEOS</h1>
             <div className="video-container">
                 <Flickity
-                className={'video'}
+                    className={'video'}
                     options={flickityOptions}
                 >
                     {videos.map((video, index) => (
