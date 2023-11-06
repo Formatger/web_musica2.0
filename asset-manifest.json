@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d03c8ce.css",
+    "main.css": "/static/css/main.70854583.css",
     "main.js": "/static/js/main.541975a8.js",
     "static/js/679.620ea950.chunk.js": "/static/js/679.620ea950.chunk.js",
     "static/js/787.40df5df9.chunk.js": "/static/js/787.40df5df9.chunk.js",
@@ -19,13 +19,13 @@
     "static/media/Urbanist-Regular.ttf": "/static/media/Urbanist-Regular.64ab880a68030133bbf7.ttf",
     "static/media/Urbanist-Bold.ttf": "/static/media/Urbanist-Bold.28937b70005aac17035d.ttf",
     "index.html": "/index.html",
-    "main.1d03c8ce.css.map": "/static/css/main.1d03c8ce.css.map",
+    "main.70854583.css.map": "/static/css/main.70854583.css.map",
     "main.541975a8.js.map": "/static/js/main.541975a8.js.map",
     "679.620ea950.chunk.js.map": "/static/js/679.620ea950.chunk.js.map",
     "787.40df5df9.chunk.js.map": "/static/js/787.40df5df9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d03c8ce.css",
+    "static/css/main.70854583.css",
     "static/js/main.541975a8.js"
   ]
 }
