@@ -57,7 +57,7 @@ const Toolbar = (props) => {
             window.removeEventListener('scroll', handleScroll);
         };
     },
-    []
+        []
     );
 
     const scrollToSection = (ref) => {
@@ -75,25 +75,25 @@ const Toolbar = (props) => {
                     Albert Formatger
                 </h1>
             </div>
-            <div className='Hamburguesa-button' onClick={() => setIsMenuOpen(!isMenuOpen)}>
-              ☰
+            <div className={`HamburguesaButton ${isScrolldown ? 'scroll-down' : ''} ${isAtTop ? 'at-top' : ''} ${isPause ? 'is-pause' : ''}`} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                ☰
             </div>
             {isMenuOpen && (
-            <div className='Mobile-menu'>
-                <a className='Mobile-menu-item' onClick={() => {scrollToSection(references.homeRef); setIsMenuOpen(false)}} >Home</a>
-                <a className='Mobile-menu-item' onClick={() => {scrollToSection(references.aboutMeRef);setIsMenuOpen(false)}}>Sobre mí</a>
-                <a className='Mobile-menu-item' onClick={() => {scrollToSection(references.serviceRef);setIsMenuOpen(false)}}>Servicios</a>
-                <a className='Mobile-menu-item' onClick={() => {scrollToSection(references.mediaRef);setIsMenuOpen(false)}}>Media</a>
-                <a className='Mobile-menu-item' onClick={() => {scrollToSection(references.contactRef);setIsMenuOpen(false)}}>Contact</a>
-            </div>
+                <div className='Mobile-menu'>
+                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.homeRef); setIsMenuOpen(false) }} >Home</a>
+                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.aboutMeRef); setIsMenuOpen(false) }}>Sobre mí</a>
+                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.serviceRef); setIsMenuOpen(false) }}>Servicios</a>
+                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.mediaRef); setIsMenuOpen(false) }}>Media</a>
+                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.contactRef); setIsMenuOpen(false) }}>Contacto</a>
+                </div>
             )}
 
             <div className='Toolbar-button'>
-                <a className= {`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.homeRef)}>Home</a>
-                <a className= {`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.aboutMeRef)}>Sobre mí</a>
-                <a className= {`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.serviceRef)}>Servicios</a>
-                <a className= {`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.mediaRef)}>Media</a>
-                <a className= {`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.contactRef)}>Contact</a>
+                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.homeRef)}>Home</a>
+                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.aboutMeRef)}>Sobre mí</a>
+                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.serviceRef)}>Servicios</a>
+                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.mediaRef)}>Media</a>
+                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.contactRef)}>Contacto</a>
             </div>
         </div>
     )

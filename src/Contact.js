@@ -32,7 +32,6 @@ function Contact() {
                 </div>
             </div>
             <div className="foto-final-movil">
-
             </div>
         </div>
     );

@@ -79,7 +79,7 @@
         background-size: 0;
         background-position-y: 0;
         background-position-x: 0;
-        width: 100vw;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -106,21 +106,19 @@
         left: 0;
         color: white;
         font-family: 'Urbanist-Bold';
-        font-size: 3rem;
+        font-size: 12vw;
         letter-spacing: 0.3rem;
     }
 
     .Contact-linea {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: left;
-        position: relative;
+        justify-content: center;
         top: 0;
         padding-bottom: 0;
-        padding-left: 3vw;
         left: 0;
-        flex-direction: row;
-        width: 100%;
+        width: auto;
         height: auto;
     }
 
@@ -133,16 +131,16 @@
 
     .Contact-letra {
         display: flex;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
         font-family: 'Urbanist-ExtraLight';
-        font-size: .8em;
+        font-size: 4vw;
         letter-spacing: 0.18rem;
         color: white;
-        justify-content: left;
-        margin-left: 5vw;
-        align-items: center;
+        margin-left: 0;
         width: auto;
         height: auto;
+        padding-top: 5vw;
     }
 
     .foto-final-movil {
@@ -151,5 +149,4 @@
         height: 100vw;
         background-size: cover;
     }
-
 }

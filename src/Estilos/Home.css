@@ -1,6 +1,4 @@
 .Cover {
-    background-color: blue;
-    position: relative;
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -19,7 +17,6 @@
 }
 
 .First_sentence_block {
-    background-color: rgb(228, 220, 220);
     width: 100vw;
     height: 100px;
     position: absolute;
@@ -45,8 +42,6 @@
 @media (max-width:768px) {
 
     .Cover {
-        background-color: blue;
-        position: relative;
         width: 100vw;
         height: 100vh;
         justify-content: center;
@@ -65,9 +60,9 @@
     }
 
     .First_sentence_block {
-        background-color: rgb(228, 220, 220);
         width: 100vw;
-        height: 100px;
+        min-height: 100px;
+        height: auto;
         position: absolute;
         bottom: 0;
         background-color: rgba(0, 0, 0, 0.8);
@@ -85,7 +80,7 @@
         color: white;
         font-family: 'Urbanist-semibold';
         font-size: 1em;
-        letter-spacing: .4rem;
+        letter-spacing: 3.5px;
     }
 
 }
