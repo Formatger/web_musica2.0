@@ -12,6 +12,7 @@ function VideoSlider({ videos }) {
         autoPlay: 7000,
         pauseAutoPlayOnHover: false,
         pageDots: true,
+        lazyLoad:2,
         arrowShape: {
             x0: 30,
             x1: 65, y1: 35,

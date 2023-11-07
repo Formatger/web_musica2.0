@@ -44,8 +44,6 @@ function About() {
                         Actualmente se encuentra en pleno proceso de grabación de su primer disco con la banda de rock Black Amber,
                         se dedica al mundo del directo (destacando a Fitos y el Fitipaldi - tributo), a la enseñanza del instrumento y sesiones de estudio
                         en modalidad online y presencial. Ah!! Todo esto compajinado con un trabajo de ingenieria.
-
-
                         <div className="contenedor-icon">
                             <img src='/icon/instagram.png' onClick={abrirInstagram} />
                             <img src='/icon/youtube.png' onClick={abrirYouTube} />

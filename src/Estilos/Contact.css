@@ -144,9 +144,40 @@
     }
 
     .foto-final-movil {
-        background-image: url('/public/fotos/40.jpg');
-        width: 100vw;
-        height: 100vw;
-        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
     }
+
+    .Sentence_block {
+        width: 100vw;
+        min-height: 100px;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+    }
+
+    .Sentence {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 5px;
+        color: white;
+        font-family: 'Urbanist-semibold';
+        font-size: 1em;
+        letter-spacing: 3.5px;
+        z-index: 3;
+    }
+
+    
 }

@@ -13,6 +13,7 @@ function Carousel({ images }) {
         prevNextButtons: true,
         pageDots: false,
         pauseAutoPlayOnHover: false,
+        lazyLoad:5,
         arrowShape: {
             x0: 30,
             x1: 65, y1: 35,
@@ -40,3 +41,42 @@ function Carousel({ images }) {
 }
 
 export default Carousel;
+
+
+
+
+
+
+
+
+// import React, { Suspense, lazy } from "react";
+// import Flickity from "react-flickity-component";
+// import './Estilos/Media.css';
+
+// const LazyImage = lazy(() => import("./LazyImageComponent")); // Reemplaza con la ruta correcta de tu componente de imagen
+
+// function Carousel({ images }) {
+//     const flickityOptions = {
+//         // ... opciones de Flickity ...
+//     };
+
+//     return (
+//         <div className="fotos-container">
+//             <h1 className='Title-media'>LIVE MEDIA</h1>
+//             <div className="carousel-container">
+//                 <Flickity
+//                     className={'fotos'}
+//                     options={flickityOptions}
+//                 >
+//                     {images.map((image, index) => (
+//                         <Suspense key={index} fallback={<div>Cargando...</div>}>
+//                             <LazyImage src={image} alt="" />
+//                         </Suspense>
+//                     ))}
+//                 </Flickity>
+//             </div>
+//         </div>
+//     );
+// }
+
+// export default Carousel;
