@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row-reverse;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-color: white;
 }
 
@@ -10,22 +10,20 @@
     font-family: 'Urbanist-Black';
     background-color: white;
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: left;
-    font-size: 3rem;
-    padding-top: 6rem;
-    padding-left: 6rem;
-
+    font-size: 3vw;
+    padding-top: 3vw;
+    padding-left: 5vw;
 }
 
 .contenido {
-    width: 67%;
+    width: 100%;
     height: auto;
     font-family: 'Montserrat-Regular';
-    font-size: 1rem;
+    font-size: .8vw;
     letter-spacing: 0.03rem;
-    padding-left: 6rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
 }
 
 .contenedor-contenido {
@@ -34,8 +32,9 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    padding-bottom: 6rem;
+    padding-bottom: 0;
 }
+
 
 .Descripcion {
     width: 50vw;
@@ -52,18 +51,16 @@
 }
 
 .contenedor-icon {
-    position: relative;
     display: flex;
-    flex-direction: row;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    padding-top: 50px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
+
 .contenedor-icon img {
-    width: 1;
-    margin-right: 40px;
+    width: 3.3vw;
+    height: 3.3vw;
+    margin-right: 3vw;
     cursor: pointer;
     filter: invert(100%);
 }
@@ -88,8 +85,8 @@
         text-align: center;
         justify-content: center;
         font-size: 12vw;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
         padding-left: 0;
         height: auto;
     }

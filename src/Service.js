@@ -7,7 +7,7 @@ function Service() {
             <div className='container-card'>
                 <div className='card' >
                     <div className='card-image'>
-                        <img src='/fotos/49.JPG' />
+                        <img src='/fotos/49.jpg' />
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>
@@ -43,7 +43,7 @@ function Service() {
                 </div>
                 <div className='card' >
                     <div className='card-image'>
-                        <img src='/fotos/25.JPG' />
+                        <img src='/fotos/estudio.png' />
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>
@@ -60,6 +60,9 @@ function Service() {
                         </p>
                     </div>
                 </div>
+            </div>
+            <div className="imagen-fondo-2">
+                <img src="./fotos/fondo2.jpg" />
             </div>
         </div>
     );

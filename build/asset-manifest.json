@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d03c8ce.css",
-    "main.js": "/static/js/main.541975a8.js",
+    "main.css": "/static/css/main.e48d47fe.css",
+    "main.js": "/static/js/main.cce7b853.js",
     "static/js/679.620ea950.chunk.js": "/static/js/679.620ea950.chunk.js",
     "static/js/787.40df5df9.chunk.js": "/static/js/787.40df5df9.chunk.js",
-    "static/media/fondo.jpg": "/static/media/fondo.71e018a6bc95764cb97c.jpg",
-    "static/media/40.jpg": "/static/media/40.88b6cada2616cc0c2395.jpg",
-    "static/media/audio.JPG": "/static/media/audio.054e1770f03ef7512313.JPG",
+    "static/media/40.jpg": "/static/media/40.e97aa76c384dff11d99e.jpg",
+    "static/media/fondo.jpg": "/static/media/fondo.b4ec7c9ab73f1c022517.jpg",
+    "static/media/audio.JPG": "/static/media/audio.cc9a1779c71454aef2ee.JPG",
     "static/media/Babylonica-Regular.ttf": "/static/media/Babylonica-Regular.dd7bcd9fd9042960b9c6.ttf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/YoungSerif-Regular.ttf": "/static/media/YoungSerif-Regular.564996966d3552bf6282.ttf",
@@ -19,13 +19,13 @@
     "static/media/Urbanist-Regular.ttf": "/static/media/Urbanist-Regular.64ab880a68030133bbf7.ttf",
     "static/media/Urbanist-Bold.ttf": "/static/media/Urbanist-Bold.28937b70005aac17035d.ttf",
     "index.html": "/index.html",
-    "main.1d03c8ce.css.map": "/static/css/main.1d03c8ce.css.map",
-    "main.541975a8.js.map": "/static/js/main.541975a8.js.map",
+    "main.e48d47fe.css.map": "/static/css/main.e48d47fe.css.map",
+    "main.cce7b853.js.map": "/static/js/main.cce7b853.js.map",
     "679.620ea950.chunk.js.map": "/static/js/679.620ea950.chunk.js.map",
     "787.40df5df9.chunk.js.map": "/static/js/787.40df5df9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d03c8ce.css",
-    "static/js/main.541975a8.js"
+    "static/css/main.e48d47fe.css",
+    "static/js/main.cce7b853.js"
   ]
 }

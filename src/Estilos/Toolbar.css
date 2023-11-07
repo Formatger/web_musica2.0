@@ -146,7 +146,7 @@
 
     .Toolbar-nombre2 {
         width: 100%;
-        font-size: 5.5vw;
+        font-size: 7vw;
         font-family: 'Babylonica';
         letter-spacing: 3px;
         color: white;
@@ -213,7 +213,7 @@
         top: 0;
         left: 0;
         background-color: rgba(0, 0, 0, .96);
-        z-index: 990;
+        z-index: 999 !important;
     }
 
     .Mobile-menu-item {
@@ -229,6 +229,5 @@
         width: 100%;
         height: 20vw;
         padding: 3px;
-        z-index: 999;
     }
 }

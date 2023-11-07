@@ -31,11 +31,11 @@ function Contact() {
                     <h1 className="Contact-letra">@Albertormatger</h1>
                 </div>
             </div>
-            <div className="foto-final-movil" src="/fotos/40.mp4">>
-                <div className='Sentence_block'>
-                    <div className="Sentence">
-                        "Music is like people:
-                        Everybody<br /> has a tone and all of them are unique"
+            <div className="foto-final-movil">
+                <div className="final-sentence-block">
+                    <div className="final-sentence">
+                        "Nadie es mejor ni peor
+                        en términos musicales"
                     </div>
                 </div>
             </div>

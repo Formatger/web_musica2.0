@@ -1,3 +1,14 @@
+.loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Urbanist-semibold';
+    font-size: 10vw;
+}
+
 .Cover {
     width: 100vw;
     height: 100vh;
@@ -5,7 +16,7 @@
     overflow: hidden;
 }
 
-.video-background {
+.video-background-pc {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,9 +26,14 @@
     z-index: -1;
 }
 
+.video-background-mobile {
+    display: none;
+}
+
 .First_sentence_block {
     width: 100vw;
-    height: 100px;
+    min-height: 150px;
+    height: auto;
     position: absolute;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
@@ -27,14 +43,15 @@
 }
 
 .First_sentence {
-    width: 50vw;
+    width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
+    margin: 5px;
     color: white;
     font-family: 'Urbanist-semibold';
-    font-size: 23px;
-    letter-spacing: .4rem;
+    font-size: 1.7vw;
+    letter-spacing: 3.5px;
 }
 
 
@@ -47,7 +64,12 @@
         overflow: hidden;
     }
 
-    .video-background {
+    .video-background-pc {
+        display: none;
+    }
+
+    .video-background-mobile {
+        display: flex;
         position: absolute;
         top: 0;
         left: 0;
