@@ -34,8 +34,7 @@ function Contact() {
             <div className="foto-final-movil">
                 <div className="final-sentence-block">
                     <div className="final-sentence">
-                        "Nadie es mejor ni peor
-                        en términos musicales"
+                    "Nobody is better or worse in musical terms."
                     </div>
                 </div>
             </div>
