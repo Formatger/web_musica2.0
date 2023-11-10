@@ -97,7 +97,7 @@
 
     .Title-contact {
         width: 100%;
-        height: 150px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -108,6 +108,8 @@
         font-family: 'Urbanist-Bold';
         font-size: 12vw;
         letter-spacing: 0.3rem;
+        padding-top: 17vw;
+        padding-bottom: 30vw;
     }
 
     .Contact-linea {

@@ -26,7 +26,7 @@ function Carousel({ images }) {
     }
     return (
         <div className="fotos-container">
-            <h1 className='Title-media'>LIVE MEDIA</h1>
+            <div className='Title-media'>LIVE MEDIA</div>
             <div className="carousel-container">
                 <Flickity
                     className={'fotos'}

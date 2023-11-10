@@ -58,7 +58,8 @@
     background-color: white;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .title-card {
@@ -71,18 +72,18 @@
 
 .into-card {
     font-family: 'Urbanist-Regular';
-    font-size: 1vw;
+    font-size: 1.2vw;
     margin-top: 2vw;
 }
 
 ul {
     display: block;
-    list-style-type: disc;
+    list-style-type: disc inside;
     margin-block-start: 0;
-    margin-block-end: 5px;
-    margin-inline-start: 0px;
-    margin-inline-end: 40px;
-    padding-inline-start: 40px;
+    margin-block-end: 3vw;
+    margin-inline-start: 1.9vw;
+    margin-inline-end: 1.9vw;
+    padding-inline-start: 2vw;
 }
 
 
@@ -102,7 +103,9 @@ ul {
     }
 
     .Title-service {
-        height: 150px;
+        height: auto;
+        padding-top: 17vw;
+        padding-bottom: 5vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -120,6 +123,7 @@ ul {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding-bottom: 0;
     }
 
     .card {
@@ -134,8 +138,7 @@ ul {
         align-items: center;
         margin-right: 0;
         margin-left: 0;
-        margin-bottom: 80px;
-        padding: 0 5vw;
+        padding: 10vw 5vw;
     }
 
     .card-image {
@@ -181,6 +184,16 @@ ul {
         margin-left: 0;
     }
 
+    ul {
+        display: block;
+        list-style-type: disc inside;
+        margin-block-start: 0;
+        margin-block-end: 3vw;
+        margin-inline-start: 1.9vw;
+        margin-inline-end: 1.9vw;
+        padding-inline-start: 2vw;
+    }
+
     .imagen-fondo-2 {
         width: 100vw;
         height: auto;
@@ -193,6 +206,8 @@ ul {
         height: 100vw;
         background-size: cover;
         opacity: 50%;
+        padding-top: 7vw;
+        padding-bottom: 2vw;
     }
 
 }

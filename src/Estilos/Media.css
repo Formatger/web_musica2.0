@@ -8,14 +8,16 @@
 }
 
 .Title-media {
-    height: 12vh;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
     font-family: 'Urbanist-Bold';
-    font-size: 3rem;
+    font-size: 3vw;
     letter-spacing: 0.3rem;
 }
 
@@ -25,13 +27,14 @@
 
 .fotos-container {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
+    background: linear-gradient(rgb(15, 1, 22), rgba(0, 0, 0, 1));
+    padding-bottom: 2vw;
 }
 
 .carousel-container {
-    margin: auto;
-    height: 80vh;
+    height: auto;
 }
 
 .flickity-enabled:focus {
@@ -39,11 +42,20 @@
 }
 
 .carousel-container img {
-    height: 60vh;
+    height: auto;
+    max-height: 30vw;
+    max-width: 90vw;
     object-fit: cover;
     border-radius: 50px;
     margin: 25px;
     user-select: none;
+    border-radius: 10px;
+}
+
+.flickity-viewport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flickity-slider {
@@ -100,61 +112,31 @@
 }
 
 .video-container {
-    margin: auto;
     height: auto;
     background-color: rgb(0, 0, 0);
 }
 
 .video-container iframe {
-    width: 60vw;
-    height: 30vw;
+    width: 45vw;
+    height: 25vw;
     object-fit: cover;
     margin: 25px;
     border: none;
-    padding-bottom: 50px;
 }
 
 .video {
     position: relative;
 }
 
-.video .flickity-button {
-    position: absolute;
-    background: hsla(0, 0%, 100%, 0.75);
-}
-
-.video .flickity-prev-next-button {
-    position: absolute;
-    top: 50%;
-    width: 100px;
-    height: 100px;
-    border-radius: 20%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.333);
-    cursor: pointer;
-    padding: 0;
-    fill: bisque;
-}
-
-.video .flickity-prev-next-button.next {
-    left: 90%;
-    right: auto;
-}
-
-.video .flickity-prev-next-button.previous {
-    right: 90%;
-    left: auto;
-}
 
 .video .flickity-page-dots {
-    position: absolute;
     width: 100%;
-    bottom: -25px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-    line-height: 1;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-left: 0;
+    margin-top: 3vw;
+    margin-bottom: 7vw;
 }
 
 .video .flickity-rtl .flickity-page-dots {
@@ -163,9 +145,9 @@
 
 .video .flickity-page-dots .dot {
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin: 0 14px;
+    width: 3vw;
+    height: 3vw;
+    margin: 0 2vw;
     background: #ffffff;
     border-radius: 50%;
     opacity: 0.25;
@@ -186,12 +168,14 @@
         align-items: center;
         height: auto;
         background-size: contain;
+        padding-bottom: 10vw;
+        background-color: rgb(0, 0, 0);
     }
 
     .Title-media {
-        height: 70px;
-        display: flex;
-        justify-content: center;
+        height: auto;
+        padding-top: 15vw;
+        padding-bottom: 8vw;
         align-items: center;
         text-align: center;
         color: white;
@@ -208,14 +192,12 @@
         width: 100vw;
         height: auto;
         overflow: hidden;
-        padding-bottom: 50px;
+        padding-bottom: 2vw;
         background: linear-gradient(rgb(15, 1, 22), rgba(0, 0, 0, 1));
     }
 
     .carousel-container {
-        margin: 0;
         height: auto;
-        align-items: center;
     }
 
 
@@ -260,37 +242,29 @@
     }
 
     .video-container {
-        margin: auto;
         height: auto;
-        background-color: rgb(0, 0, 0);
     }
 
     .video-container iframe {
         width: 90vw;
         height: 50vw;
         object-fit: cover;
-        margin: 25px;
         border: none;
-        padding-bottom: 50px;
     }
 
     .video {
         position: relative;
     }
 
-    .video .flickity-button {
-        display: none;
-    }
-
     .video .flickity-page-dots {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        padding: 0;
-        margin: 0;
-        list-style: none;
+        display: flex;
+        justify-content: center;
         text-align: center;
-        line-height: 1;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 3vw;
+        padding-top: 8vw;
     }
 
     .video .flickity-rtl .flickity-page-dots {
@@ -301,7 +275,7 @@
         display: inline-block;
         width: 5vw;
         height: 5vw;
-        margin: 0 14px;
+        margin: 0 3vw;
         background: #ffffff;
         border-radius: 50%;
         opacity: 0.25;

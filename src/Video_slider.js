@@ -12,19 +12,14 @@ function VideoSlider({ videos }) {
         autoPlay: 7000,
         pauseAutoPlayOnHover: false,
         pageDots: true,
-        lazyLoad:2,
-        arrowShape: {
-            x0: 30,
-            x1: 65, y1: 35,
-            x2: 65, y2: 35,
-            x3: 55
-        }
+        lazyLoad: 2,
+        prevNextButtons: false,
     }
 
 
     return (
         <div className="slider-container-video">
-            <h1 className="Title-media">VIDEOS</h1>
+            <div className="Title-media">VIDEOS</div>
             <div className="video-container">
                 <Flickity
                     className={'video'}
