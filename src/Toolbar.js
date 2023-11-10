@@ -85,6 +85,7 @@ const Toolbar = (props) => {
                     <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.serviceRef); setIsMenuOpen(false) }}>Servicios</a>
                     <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.mediaRef); setIsMenuOpen(false) }}>Media</a>
                     <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.contactRef); setIsMenuOpen(false) }}>Contacto</a>
+                    <a className='Mobile-menu-item' onClick={() => setIsMenuOpen(false)}><span className='close-icon'>x</span></a>
                 </div>
             )}
 

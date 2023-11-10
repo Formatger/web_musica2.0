@@ -99,6 +99,11 @@
     display: none;
 }
 
+.close-icon {
+    padding-top: 10vw;
+    font-size: 8vw;
+    color:yellow;
+}
 
 
 @media (max-width:768px) {

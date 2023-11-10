@@ -1,11 +1,11 @@
-import { React, useState, useEffect } from "react";
+import { React, useState, useEffect, useLayoutEffect } from "react";
 import './Estilos/Home.css';
 
 function Home() {
-    const [videoLoaded, setVideoLoaded] = useState(false);
 
+    const [videoLoaded, setVideoLoaded] = useState(false);
     useEffect(() => {
-        const video = document.querySelector('.video-background-mobile');
+        const video = document.querySelector('.video-background');
 
         video.addEventListener('loadeddata', () => {
             setVideoLoaded(true);
@@ -18,14 +18,32 @@ function Home() {
         };
     }, []);
 
+    
+    const [isMobile, setIsMobile] = useState(false);
+
+    useLayoutEffect(() => {
+        const mediaQuery = window.matchMedia("(max-width: 768px)");
+
+        const checkIsMobile = (event) => {
+            setIsMobile(event.matches);
+        };
+
+        checkIsMobile(mediaQuery);
+
+        mediaQuery.addEventListener('change', checkIsMobile);
+
+        return () => {
+            mediaQuery.removeEventListener('change', checkIsMobile);
+        };
+    }, []); 
+
+    const videoSource = isMobile ? "/fotos/Vid1.mp4" : "/fotos/Vid1pc.mp4";
+
     return (
         <div className="Cover">
             {!videoLoaded && <div className="loading">Cargando...</div>}
-            <video className="video-background-pc" autoPlay muted loop playsInline
-                src="/fotos/Vid1pc.mp4">
-            </video>
-            <video className="video-background-mobile" autoPlay muted loop playsInline
-                src="/fotos/Vid1.mp4">
+            <video className="video-background" autoPlay muted loop playsInline>
+                <source src={videoSource}/>
             </video>
             <div className='First_sentence_block'>
                 <div className="First_sentence">

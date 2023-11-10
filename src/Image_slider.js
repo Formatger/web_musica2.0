@@ -33,7 +33,7 @@ function Carousel({ images }) {
                     options={flickityOptions}
                 >
                     {images.map((image, index) => (
-                        <img src={image} alt="" />
+                        <img src={image}  alt="" />
                     ))}
                 </Flickity>
             </div>
