@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e48d47fe.css",
-    "main.js": "/static/js/main.cce7b853.js",
+    "main.css": "/static/css/main.ce038cc0.css",
+    "main.js": "/static/js/main.e427012c.js",
     "static/js/679.620ea950.chunk.js": "/static/js/679.620ea950.chunk.js",
     "static/js/787.40df5df9.chunk.js": "/static/js/787.40df5df9.chunk.js",
-    "static/media/40.jpg": "/static/media/40.e97aa76c384dff11d99e.jpg",
-    "static/media/fondo.jpg": "/static/media/fondo.b4ec7c9ab73f1c022517.jpg",
+    "static/media/40.jpg": "/static/media/40.0c5bafc1b105203aaedb.jpg",
+    "static/media/fondo.jpg": "/static/media/fondo.f2a4ae0c761f797aba8c.jpg",
     "static/media/audio.JPG": "/static/media/audio.cc9a1779c71454aef2ee.JPG",
     "static/media/Babylonica-Regular.ttf": "/static/media/Babylonica-Regular.dd7bcd9fd9042960b9c6.ttf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/YoungSerif-Regular.ttf": "/static/media/YoungSerif-Regular.564996966d3552bf6282.ttf",
+    "static/media/fondo2.jpg": "/static/media/fondo2.266df1a3fd92382ab5ac.jpg",
     "static/media/Staatliches-Regular.ttf": "/static/media/Staatliches-Regular.134482285baed3198bb5.ttf",
     "static/media/PixelifySans-Bold.ttf": "/static/media/PixelifySans-Bold.cf9b3ee7c9f1c551e244.ttf",
     "static/media/Urbanist-ExtraLight.ttf": "/static/media/Urbanist-ExtraLight.019211434542ce8f932b.ttf",
@@ -19,13 +20,13 @@
     "static/media/Urbanist-Regular.ttf": "/static/media/Urbanist-Regular.64ab880a68030133bbf7.ttf",
     "static/media/Urbanist-Bold.ttf": "/static/media/Urbanist-Bold.28937b70005aac17035d.ttf",
     "index.html": "/index.html",
-    "main.e48d47fe.css.map": "/static/css/main.e48d47fe.css.map",
-    "main.cce7b853.js.map": "/static/js/main.cce7b853.js.map",
+    "main.ce038cc0.css.map": "/static/css/main.ce038cc0.css.map",
+    "main.e427012c.js.map": "/static/js/main.e427012c.js.map",
     "679.620ea950.chunk.js.map": "/static/js/679.620ea950.chunk.js.map",
     "787.40df5df9.chunk.js.map": "/static/js/787.40df5df9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e48d47fe.css",
-    "static/js/main.cce7b853.js"
+    "static/css/main.ce038cc0.css",
+    "static/js/main.e427012c.js"
   ]
 }
