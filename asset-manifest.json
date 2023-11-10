@@ -1,32 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce038cc0.css",
-    "main.js": "/static/js/main.e427012c.js",
+    "main.css": "/static/css/main.13b59dd1.css",
+    "main.js": "/static/js/main.60820705.js",
     "static/js/679.620ea950.chunk.js": "/static/js/679.620ea950.chunk.js",
     "static/js/787.40df5df9.chunk.js": "/static/js/787.40df5df9.chunk.js",
-    "static/media/40.jpg": "/static/media/40.0c5bafc1b105203aaedb.jpg",
-    "static/media/fondo.jpg": "/static/media/fondo.f2a4ae0c761f797aba8c.jpg",
+    "static/media/40.jpg": "/static/media/40.e97aa76c384dff11d99e.jpg",
+    "static/media/fondo.jpg": "/static/media/fondo.b4ec7c9ab73f1c022517.jpg",
     "static/media/audio.JPG": "/static/media/audio.cc9a1779c71454aef2ee.JPG",
     "static/media/Babylonica-Regular.ttf": "/static/media/Babylonica-Regular.dd7bcd9fd9042960b9c6.ttf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/imagen-medio.jpg": "/static/media/imagen-medio.e3634b8fd03a59f6a75c.jpg",
     "static/media/YoungSerif-Regular.ttf": "/static/media/YoungSerif-Regular.564996966d3552bf6282.ttf",
-    "static/media/fondo2.jpg": "/static/media/fondo2.266df1a3fd92382ab5ac.jpg",
     "static/media/Staatliches-Regular.ttf": "/static/media/Staatliches-Regular.134482285baed3198bb5.ttf",
     "static/media/PixelifySans-Bold.ttf": "/static/media/PixelifySans-Bold.cf9b3ee7c9f1c551e244.ttf",
+    "static/media/imagen-bio.jpg": "/static/media/imagen-bio.1f723f4361eef5225914.jpg",
     "static/media/Urbanist-ExtraLight.ttf": "/static/media/Urbanist-ExtraLight.019211434542ce8f932b.ttf",
     "static/media/Urbanist-Black.ttf": "/static/media/Urbanist-Black.5f1f14f5f25adfb3ff24.ttf",
     "static/media/Urbanist-Light.ttf": "/static/media/Urbanist-Light.084688f4083437c38a98.ttf",
     "static/media/Urbanist-SemiBold.ttf": "/static/media/Urbanist-SemiBold.0d136c84d89999f5b263.ttf",
     "static/media/Urbanist-Regular.ttf": "/static/media/Urbanist-Regular.64ab880a68030133bbf7.ttf",
     "static/media/Urbanist-Bold.ttf": "/static/media/Urbanist-Bold.28937b70005aac17035d.ttf",
+    "static/media/imagen-final.jpg": "/static/media/imagen-final.02cdb5726d8a39e20a59.jpg",
     "index.html": "/index.html",
-    "main.ce038cc0.css.map": "/static/css/main.ce038cc0.css.map",
-    "main.e427012c.js.map": "/static/js/main.e427012c.js.map",
+    "main.13b59dd1.css.map": "/static/css/main.13b59dd1.css.map",
+    "main.60820705.js.map": "/static/js/main.60820705.js.map",
     "679.620ea950.chunk.js.map": "/static/js/679.620ea950.chunk.js.map",
     "787.40df5df9.chunk.js.map": "/static/js/787.40df5df9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce038cc0.css",
-    "static/js/main.e427012c.js"
+    "static/css/main.13b59dd1.css",
+    "static/js/main.60820705.js"
   ]
 }
