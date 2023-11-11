@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Estilos/Toolbar.css';
 
 const Toolbar = (props) => {
@@ -7,6 +7,7 @@ const Toolbar = (props) => {
     const [isAtTop, setIsAtTop] = useState(false);
     const [isPause, setIsPause] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 
     useEffect(() => {
         let timeout;

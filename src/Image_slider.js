@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Flickity from "react-flickity-component";
 import './Estilos/Media.css';
 
@@ -33,7 +32,7 @@ function Carousel({ images }) {
                     options={flickityOptions}
                 >
                     {images.map((image, index) => (
-                        <img src={image}  alt="" />
+                        <img src={image} alt="" />
                     ))}
                 </Flickity>
             </div>

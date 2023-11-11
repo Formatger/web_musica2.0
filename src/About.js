@@ -51,9 +51,8 @@ function About() {
                         demanda ha ido en aumento hasta el día de hoy.
                         <br /><br />
                         Actualmente, se encuentra en pleno proceso de grabación de su primer disco con la banda de rock
-                        Black Amber.Además, se dedica a realizar actuaciones en vivo(destacando en el tributo a Fitos y el Fitipaldi),
+                        Black Amber. Además, se dedica a realizar actuaciones en vivo(destacando en el tributo a Fitos y el Fitipaldi),
                         a la enseñanza del instrumento y a sesiones de estudio tanto en modalidad online como presencial.
-                        ¡¡Ah!! ¡Y todo esto lo compagina con su trabajo como ingeniero!
 
                         <div className="contenedor-icon">
                             <img src='/icon/instagram.png' onClick={abrirInstagram} />

@@ -18,7 +18,7 @@ function Home() {
         };
     }, []);
 
-    
+
     const [isMobile, setIsMobile] = useState(false);
 
     useLayoutEffect(() => {
@@ -35,15 +35,15 @@ function Home() {
         return () => {
             mediaQuery.removeEventListener('change', checkIsMobile);
         };
-    }, []); 
+    }, []);
 
-    const videoSource = isMobile ? "/fotos/Vid1.mp4" : "/fotos/Vid1pc.mp4";
+    const videoSource = isMobile ? "/fotos/Portada-movil.mp4" : "/fotos/Portada-pc.mp4";
 
     return (
         <div className="Cover">
-            {!videoLoaded && <div className="loading">Cargando...</div>}
+            {!videoLoaded && <div className="loading">LOADING...</div>}
             <video className="video-background" autoPlay muted loop playsInline>
-                <source src={videoSource}/>
+                <source src={videoSource} />
             </video>
             <div className='First_sentence_block'>
                 <div className="First_sentence">

@@ -43,7 +43,7 @@
 }
 
 .Foto_desc {
-    background-image: url('/public/fotos/fondo.jpg');
+    background-image: url('/public/fotos/fotos-pc/imagen-bio.jpg');
     background-size: cover;
     background-position: right center;
     width: 50vw;
@@ -62,7 +62,6 @@
     height: 3.3vw;
     margin-right: 3vw;
     cursor: pointer;
-    filter: invert(100%);
 }
 
 
@@ -118,7 +117,7 @@
     }
 
     .Foto_desc {
-        background-image: url('/public/fotos/fondo.jpg');
+        background-image: url('/public/fotos/fotos-movil/imagen-bio.jpg');
         background-size: cover;
         background-position: right center;
         width: 100%;
@@ -146,7 +145,6 @@
         margin-right: 10px;
         margin-left: 10px;
         cursor: pointer;
-        filter: invert(100%);
     }
 
 

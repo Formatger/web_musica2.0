@@ -1,11 +1,16 @@
 .loading {
+    background-image: url('/public/fotos/fotos-movil/img-video.png');
+    background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Urbanist-semibold';
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 0 1px black;
+    font-family: 'Pixel';
     font-size: 10vw;
 }
 
@@ -16,7 +21,7 @@
     overflow: hidden;
 }
 
-.video-background{
+.video-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -36,6 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 0;
 }
 
 .First_sentence {
@@ -68,7 +74,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        z-index: -1;
+        z-index: -2;
     }
 
     .First_sentence_block {
@@ -81,6 +87,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -1;
     }
 
     .First_sentence {
@@ -93,6 +100,7 @@
         font-family: 'Urbanist-semibold';
         font-size: 1em;
         letter-spacing: 3.5px;
+        z-index: -1;
     }
 
 }

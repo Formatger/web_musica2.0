@@ -29,7 +29,7 @@
     width: 100vw;
     height: auto;
     overflow: hidden;
-    background: linear-gradient(rgb(15, 1, 22), rgba(0, 0, 0, 1));
+    background: linear-gradient(rgb(21, 2, 31), rgba(0, 0, 0, 1));
     padding-bottom: 2vw;
 }
 
@@ -193,7 +193,7 @@
         height: auto;
         overflow: hidden;
         padding-bottom: 2vw;
-        background: linear-gradient(rgb(15, 1, 22), rgba(0, 0, 0, 1));
+        background: linear-gradient(rgb(28, 2, 40), rgba(0, 0, 0, 1));
     }
 
     .carousel-container {

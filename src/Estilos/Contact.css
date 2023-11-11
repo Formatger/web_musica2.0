@@ -1,6 +1,6 @@
 .Contact-container {
     background-color: black;
-    background-image: url('/public/fotos/40.jpg');
+    background-image: url('/public/fotos/fotos-pc/imagen-final.jpg');
     background-repeat: no-repeat;
     background-size: 152%;
     background-position-y: -273px;
@@ -49,6 +49,7 @@
     cursor: pointer;
     width: 70px;
     height: auto;
+    filter: invert(90%);
 }
 
 .Contact-letra {
@@ -67,6 +68,10 @@
 
 .foto-final-movil {
     background-image: none;
+}
+
+.final-sentence-block {
+    display: none;
 }
 
 
@@ -129,6 +134,7 @@
         width: 10vw;
         max-width: 70px;
         height: auto;
+        filter: invert(90%);
     }
 
     .Contact-letra {
@@ -146,7 +152,7 @@
     }
 
     .foto-final-movil {
-        background-image: url('/public/fotos/40.jpg');
+        background-image: url('/public/fotos/fotos-movil/imagen-final.jpg');
         height: 100vw;
         background-size: cover;
         display: flex;
@@ -158,18 +164,14 @@
 
     .final-sentence-block {
         display: flex;
-        justify-content: center;
         align-items: center;
+        text-align: center;
         background-color: rgba(6, 0, 9, 0.8);
         height: auto;
         min-height: 100px;
         width: 100vw;
         position: absolute;
         bottom: 0;
-        color: white;
-        display: flex;
-        text-align: center;
-        justify-content: center;
         color: white;
         font-family: 'Urbanist-semibold';
         font-size: 1em;

@@ -1,13 +1,36 @@
 import './Estilos/Service.css';
+import { useState, useEffect } from 'react';
 
-function Service() {
+
+
+function Service({ }) {
+
+    const [isMobile, setIsMobile] = useState(false);
+    useEffect(() => {
+        const checkIsMobile = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+        checkIsMobile();
+        window.addEventListener('resize', checkIsMobile);
+        return () => {
+            window.removeEventListener('resize', checkIsMobile);
+        };
+    }, []);
+
+    let serviceImages;
+
+    if (isMobile) {
+        serviceImages = ['fotos/fotos-movil/live_pic.jpg', 'fotos/fotos-movil/teacher_pic.jpg', 'fotos/fotos-movil/studio_pic.jpeg'];
+    } else {
+        serviceImages = ['fotos/fotos-movil/live_pic.jpg', 'fotos/fotos-movil/teacher_pic.jpg', 'fotos/fotos-movil/studio_pic.jpeg'];
+    }
     return (
         <div className="Service-container">
             <h className='Title-service'>SERVICIOS</h>
             <div className='container-card'>
                 <div className='card' >
                     <div className='card-image'>
-                        <img src='/fotos/49.jpg' />
+                        <img src={serviceImages[0]} />
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>
@@ -17,6 +40,7 @@ function Service() {
                             <ul>
                                 <li>Conciertos</li><br />
                                 <li>Sustituciones</li><br />
+                                <li>Promotor de eventos</li><br />
                                 <li>Alquiler de back-line</li><br />
                                 <li>Producción y road management</li><br />
                             </ul>
@@ -25,7 +49,7 @@ function Service() {
                 </div>
                 <div className='card' >
                     <div className='card-image' >
-                        <img src='/fotos/servicios_clases.png' />
+                        <img src={serviceImages[1]} />
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>
@@ -43,7 +67,7 @@ function Service() {
                 </div>
                 <div className='card' >
                     <div className='card-image'>
-                        <img src='/fotos/estudio.png' />
+                        <img src={serviceImages[2]} />
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>
@@ -62,7 +86,6 @@ function Service() {
                 </div>
             </div>
             <div className="imagen-fondo-2">
-                <img src="./fotos/fondo2.jpg" />
             </div>
         </div>
     );
