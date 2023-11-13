@@ -17,7 +17,9 @@ function Contact() {
     return (
         <div className="Contact-container">
             <div className="Contact">
-                <h className='Title-contact'>CONTACTO</h>
+                <div className='Title-contact'>
+                    CONTACTO
+                </div>
                 <div className="Contact-linea">
                     <img className="Contact-emoji" src='/icon/email.png' alt="Correo Electrónico" onClick={abrirCorreo} />
                     <h1 className="Contact-letra">albert_furma@hotmail.com</h1>
@@ -28,7 +30,7 @@ function Contact() {
                 </div>
                 <div className="Contact-linea" >
                     <img className="Contact-emoji" src='/icon/youtube.png' alt="YouTube" onClick={abrirYouTube} />
-                    <h1 className="Contact-letra">@Albertormatger</h1>
+                    <h1 className="Contact-letra">@Alberformatger</h1>
                 </div>
             </div>
             <div className="foto-final-movil">
@@ -36,7 +38,7 @@ function Contact() {
                     <div className="final-sentence">
                     "Nobody is better or worse in musical terms."
                     </div>
-                </div>
+            </div>
             </div>
         </div>
     );
