@@ -28,12 +28,12 @@
     /* position: relative; */
     /* top: 10vw; */
     /* left: 10vw; */
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Urbanist-Bold';
     font-size: 3vw;
     letter-spacing: 0.3rem;
-    padding-block-start:3vw;
-    padding-inline-start: 8vw ;
+    padding-block-start: 6vw;
+    padding-inline-start: 8vw;
 }
 
 .Contact-linea {

@@ -29,7 +29,7 @@
     width: 100vw;
     height: auto;
     overflow: hidden;
-    background: linear-gradient(rgb(21, 2, 31), rgba(0, 0, 0, 1));
+    background: linear-gradient(rgb(21, 2, 31), rgb(11, 1, 17));
     padding-bottom: 2vw;
 }
 
@@ -107,13 +107,20 @@
 .slider-container-video {
     width: 100vw;
     height: auto;
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(rgb(11, 1, 17), rgb(0, 0, 0));
     overflow-x: hidden;
 }
 
 .video-container {
     height: auto;
     background-color: rgb(0, 0, 0);
+}
+
+.video-container .flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    background: linear-gradient(#09010e, rgb(0, 0, 0));
 }
 
 .video-container iframe {
@@ -193,7 +200,6 @@
         height: auto;
         overflow: hidden;
         padding-bottom: 2vw;
-        background: linear-gradient(rgb(28, 2, 40), rgba(0, 0, 0, 1));
     }
 
     .carousel-container {

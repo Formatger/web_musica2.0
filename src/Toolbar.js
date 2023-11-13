@@ -35,11 +35,13 @@ const Toolbar = (props) => {
 
                     timeout = setTimeout(() => {
                         setIsPause(true);
+                        setIsScrolldown(false);
                     }, 750);
                 }
                 else {
                     setIsAtTop(false);
                     setIsPause(false);
+                    setIsScrolldown(true);
                     if (timeout) {
                         clearTimeout(timeout);
                     }
@@ -70,7 +72,7 @@ const Toolbar = (props) => {
     const { references } = props;
 
     return (
-        <div className={`Toolbar ${isScrolldown ? 'scroll-down' : ''} ${isAtTop ? 'at-top' : ''} ${isPause ? 'is-pause' : ''}`} >
+        <div className={`Toolbar ${isScrolldown ? 'scroll-down' : ''} ${isAtTop ? 'at-top' : ''} ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.homeRef)}>
             <div className='Toolbar-nombre'>
                 <h1 className={`Toolbar-nombre2 ${isPause ? 'is-pause' : ''}`}>
                     Albert Formatger
@@ -86,7 +88,7 @@ const Toolbar = (props) => {
                     <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.serviceRef); setIsMenuOpen(false) }}>Servicios</a>
                     <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.mediaRef); setIsMenuOpen(false) }}>Media</a>
                     <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.contactRef); setIsMenuOpen(false) }}>Contacto</a>
-                    <a className='Mobile-menu-item' onClick={() => setIsMenuOpen(false)}><span className='close-icon'>x</span></a>
+                    <a onClick={() => setIsMenuOpen(false)}><span className='close-icon'>x</span></a>
                 </div>
             )}
 
