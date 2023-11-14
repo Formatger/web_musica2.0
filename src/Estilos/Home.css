@@ -59,45 +59,17 @@
 
 @media (max-width:768px) {
 
-    .Cover {
-        width: 100vw;
-        height: 100vh;
-        justify-content: center;
-        overflow: hidden;
-    }
-
     .video-background {
         display: flex;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
         z-index: -2;
     }
 
     .First_sentence_block {
-        width: 100vw;
         min-height: 100px;
-        height: auto;
-        position: absolute;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         z-index: -1;
     }
 
     .First_sentence {
-        width: 100%;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        margin: 5px;
-        color: white;
-        font-family: 'Urbanist-semibold';
         font-size: 1em;
         letter-spacing: 3.5px;
         z-index: -1;

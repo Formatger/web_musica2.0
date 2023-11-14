@@ -28,7 +28,7 @@
     /* position: relative; */
     /* top: 10vw; */
     /* left: 10vw; */
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: 'Urbanist-Bold';
     font-size: 3vw;
     letter-spacing: 0.3rem;
@@ -84,37 +84,23 @@
     .Contact-container {
         background-color: rgb(44, 38, 38);
         background-image: none;
-        background-repeat: no-repeat;
         background-size: 0;
         background-position-y: 0;
-        background-position-x: 0;
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
 
     .Contact {
         background: linear-gradient(rgba(0, 0, 0), rgb(15, 1, 22));
-        width: 100%;
         padding-bottom: 3vw;
         height: auto;
-        display: flex;
-        flex-direction: column;
     }
 
     .Title-contact {
-        width: 100%;
         height: auto;
-        display: flex;
         justify-content: center;
         align-items: center;
         position: none;
         top: 0;
         left: 0;
-        color: white;
-        font-family: 'Urbanist-Bold';
         font-size: 12vw;
         letter-spacing: 0.3rem;
         padding-top: 17vw;
@@ -122,33 +108,24 @@
     }
 
     .Contact-linea {
-        display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         top: 0;
         padding-bottom: 0;
         left: 0;
         width: auto;
-        height: auto;
     }
 
     .Contact-emoji {
-        cursor: pointer;
         width: 10vw;
         max-width: 70px;
         height: auto;
-        filter: invert(90%);
     }
 
     .Contact-letra {
-        display: flex;
         justify-content: center;
         align-items: center;
-        font-family: 'Urbanist-ExtraLight';
         font-size: 4vw;
-        letter-spacing: 0.18rem;
-        color: white;
         margin-left: 0;
         width: auto;
         height: auto;
