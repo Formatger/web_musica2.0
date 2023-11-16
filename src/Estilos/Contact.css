@@ -3,7 +3,7 @@
     background-image: url('/public/fotos/fotos-pc/imagen-final.jpg');
     background-repeat: no-repeat;
     background-size: 139.5%;
-    background-position-y: -380px;
+    background-position-y: -11.4vw;
     background-position-x: 0px;
     width: 100vw;
     height: auto;
@@ -60,7 +60,7 @@
     display: flex;
     text-align: center;
     font-family: 'Urbanist-ExtraLight';
-    font-size: 1.3rem;
+    font-size: 1.2vw;
     letter-spacing: 0.18rem;
     color: white;
     justify-content: left;
@@ -98,21 +98,17 @@
         height: auto;
         justify-content: center;
         align-items: center;
-        position: none;
-        top: 0;
-        left: 0;
         font-size: 12vw;
         letter-spacing: 0.3rem;
         padding-top: 17vw;
-        padding-bottom: 30vw;
+        padding-bottom: 10vw;
+        padding-inline-start: 0;
     }
 
     .Contact-linea {
         flex-direction: column;
         justify-content: center;
-        top: 0;
-        padding-bottom: 0;
-        left: 0;
+        padding-bottom: 8vw;
         width: auto;
     }
 
