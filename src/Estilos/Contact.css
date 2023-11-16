@@ -18,7 +18,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    opacity: 75%;
+    opacity:93%;
 }
 
 .Title-contact {
@@ -82,14 +82,14 @@
 
 @media (max-width:768px) {
     .Contact-container {
-        background-color: rgb(44, 38, 38);
+        /* background-color: rgb(44, 38, 38); */
         background-image: none;
         background-size: 0;
         background-position-y: 0;
     }
 
     .Contact {
-        background: linear-gradient(rgba(0, 0, 0), rgb(15, 1, 22));
+        /* background: linear-gradient(rgba(0, 0, 0), rgb(15, 1, 22)); */
         padding-bottom: 3vw;
         height: auto;
     }

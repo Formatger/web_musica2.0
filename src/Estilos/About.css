@@ -3,12 +3,12 @@
     flex-direction: row-reverse;
     width: 100vw;
     height: auto;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .Title {
+    background-color: rgb(255, 255, 255,.93);
     font-family: 'Urbanist-Black';
-    background-color: white;
     display: flex;
     font-size: 3vw;
     padding-top: 3vw;
@@ -16,6 +16,7 @@
 }
 
 .contenido {
+    background-color: rgb(255, 255, 255,.93);
     width: 100%;
     height: auto;
     font-family: 'Montserrat-Regular';
