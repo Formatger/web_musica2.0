@@ -1,10 +1,11 @@
 .Service-container {
     background: linear-gradient(rgb(5, 0, 8), rgb(21, 2, 31));
-    width: 100vw;
+    width: auto;
     height: auto;
 }
 
 .Title-service {
+    width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
@@ -15,8 +16,6 @@
     letter-spacing: 0.3rem;
     padding-top: 3vw;
     padding-bottom: 3vw;
-    opacity:93%;
-
 }
 
 .container-card {
@@ -56,7 +55,7 @@
     position: relative;
     width: 100%;
     height: 25vw;
-    background-color: rgb(255, 255, 255,.93);
+    background-color: rgb(255, 255, 255);
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     display: flex;

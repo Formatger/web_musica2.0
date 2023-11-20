@@ -72,9 +72,9 @@ const Toolbar = (props) => {
     const { references } = props;
 
     return (
-        <div className={`Toolbar ${isScrolldown ? 'scroll-down' : ''} ${isAtTop ? 'at-top' : ''} ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.homeRef)}>
+        <div className={`Toolbar ${isScrolldown ? 'scroll-down' : ''} ${isAtTop ? 'at-top' : ''} ${isPause ? 'is-pause' : ''}`}>
             <div className='Toolbar-nombre'>
-                <h1 className={`Toolbar-nombre2 ${isPause ? 'is-pause' : ''}`}>
+                <h1 className={`Toolbar-nombre2 ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.homeRef)}>
                     Albert Formatger
                 </h1>
             </div>

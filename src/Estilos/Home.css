@@ -19,6 +19,7 @@
     height: 100vh;
     justify-content: center;
     overflow: hidden;
+    
 }
 
 .video-background {
@@ -32,7 +33,7 @@
 }
 
 .First_sentence_block {
-    width: 100vw;
+    width: 100%;
     min-height: 9vw;
     height: auto;
     position: absolute;

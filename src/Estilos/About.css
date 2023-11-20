@@ -7,7 +7,7 @@
 }
 
 .Title {
-    background-color: rgb(255, 255, 255,.93);
+    background-color: rgb(255, 255, 255);
     font-family: 'Urbanist-Black';
     display: flex;
     font-size: 3vw;
@@ -16,7 +16,7 @@
 }
 
 .contenido {
-    background-color: rgb(255, 255, 255,.93);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: auto;
     font-family: 'Montserrat-Regular';

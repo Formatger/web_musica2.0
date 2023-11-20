@@ -34,7 +34,7 @@ function App() {
   ]
 
   return (
-    <div>
+    <div className='App'>
       <MusicPlayer audioFiles={audio} />
       <div>
         <Toolbar references={ref} />
