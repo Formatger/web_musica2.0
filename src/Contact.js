@@ -30,7 +30,7 @@ function Contact() {
                 </div>
                 <div className="Contact-linea" >
                     <img className="Contact-emoji" src='/icon/youtube.png' alt="YouTube" onClick={abrirYouTube} />
-                    <h1 className="Contact-letra">@Alberformatger</h1>
+                    <h1 className="Contact-letra">@Albertformatger</h1>
                 </div>
             </div>
             <div className="foto-final-movil">
