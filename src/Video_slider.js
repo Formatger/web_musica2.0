@@ -16,7 +16,6 @@ function VideoSlider({ videos }) {
         prevNextButtons: false,
     }
 
-
     return (
         <div className="slider-container-video">
             <div className="Title-media">VIDEOS</div>
