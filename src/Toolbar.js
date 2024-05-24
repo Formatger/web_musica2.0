@@ -84,20 +84,20 @@ const Toolbar = (props) => {
             {isMenuOpen && (
                 <div className='Mobile-menu'>
                     <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.homeRef); setIsMenuOpen(false) }} >Home</a>
-                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.aboutMeRef); setIsMenuOpen(false) }}>Sobre mí</a>
-                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.serviceRef); setIsMenuOpen(false) }}>Servicios</a>
+                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.aboutMeRef); setIsMenuOpen(false) }}>About me</a>
+                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.serviceRef); setIsMenuOpen(false) }}>Services</a>
                     <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.mediaRef); setIsMenuOpen(false) }}>Media</a>
-                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.contactRef); setIsMenuOpen(false) }}>Contacto</a>
+                    <a className='Mobile-menu-item' onClick={() => { scrollToSection(references.contactRef); setIsMenuOpen(false) }}>Contact</a>
                     <a onClick={() => setIsMenuOpen(false)}><span className='close-icon'>x</span></a>
                 </div>
             )}
 
             <div className='Toolbar-button'>
                 <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.homeRef)}>Home</a>
-                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.aboutMeRef)}>Sobre mí</a>
-                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.serviceRef)}>Servicios</a>
+                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.aboutMeRef)}>About me</a>
+                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.serviceRef)}>Services</a>
                 <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.mediaRef)}>Media</a>
-                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.contactRef)}>Contacto</a>
+                <a className={`Button-style ${isPause ? 'is-pause' : ''}`} onClick={() => scrollToSection(references.contactRef)}>Contact</a>
             </div>
         </div>
     )

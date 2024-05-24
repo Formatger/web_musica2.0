@@ -18,7 +18,7 @@ function Contact() {
         <div className="Contact-container">
             <div className="Contact">
                 <div className='Title-contact'>
-                    CONTACTO
+                    CONTACT
                 </div>
                 <div className="Contact-linea">
                     <img className="Contact-emoji" src='/icon/email.png' alt="Correo Electrónico" onClick={abrirCorreo} />

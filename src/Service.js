@@ -26,7 +26,7 @@ function Service({ }) {
     }
     return (
         <div className="Service-container">
-            <h className='Title-service'>SERVICIOS</h>
+            <h className='Title-service'>SERVICES</h>
             <div className='container-card'>
                 <div className='card' >
                     <div className='card-image'>
@@ -34,15 +34,15 @@ function Service({ }) {
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>
-                            Eventos musicales
+                            Musical Events
                         </h>
                         <p className='into-card'>
                             <ul>
-                                <li>Conciertos</li><br />
-                                <li>Sustituciones</li><br />
-                                <li>Promotor de eventos</li><br />
-                                <li>Alquiler de back-line</li><br />
-                                <li>Producción y road management</li><br />
+                                <li>Concerts</li><br />
+                                <li>Substitutions / Backup</li><br />
+                                <li>Event Promoter</li><br />
+                                <li>Backline Rental</li><br />
+                                <li>Production and Road Management</li><br />
                             </ul>
                         </p>
                     </div>
@@ -53,14 +53,14 @@ function Service({ }) {
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>
-                            Clases de guitarra
+                            Guitar Lessons
                         </h>
                         <p className='into-card'>
                             <ul>
-                                <li>Modalidad online / presencial</li><br />
-                                <li>Todos los estilos: Blues, Rock, Heavy, Funk, Jazz, Pop</li><br />
-                                <li>Teoría musical, harmonía y solfeo</li><br />
-                                <li>Composición, grabación y edición musical</li><br />
+                                <li>Online / In-person Modality</li><br />
+                                <li>All Styles: Blues, Rock, Heavy, Funk, Jazz, Pop</li><br />
+                                <li>Music Theory, Harmony, and Sight-reading</li><br />
+                                <li>Composition, Recording, and Music Editing</li><br />
                             </ul>
                         </p>
                     </div>
@@ -71,15 +71,15 @@ function Service({ }) {
                     </div>
                     <div className='card-text'>
                         <h className='title-card'>
-                            Músico de sesión
+                            Sesion Musician
                         </h>
                         <p className='into-card'>
                             <ul>
-                                <li>Modalidad online / presencial</li><br />
-                                <li>Grabación de guitarras</li><br />
-                                <li>Composición de arreglos para canciones</li><br />
-                                <li>Composición musical</li><br />
-                                <li>Producción musical</li><br />
+                                <li>Online / In-person Modality</li><br />
+                                <li>Guitar Recording</li><br />
+                                <li>Arrangement Composition for Songs</li><br />
+                                <li>Musical Composition</li><br />
+                                <li>Music Production</li><br />
                             </ul>
                         </p>
                     </div>
