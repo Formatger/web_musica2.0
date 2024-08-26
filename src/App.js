@@ -9,6 +9,7 @@ import Service from './Service';
 import Media from './Media';
 import Contact from './Contact';
 import MusicPlayer from './MusicPlayer';
+import Badge from './SoundBetterBadge';
 import React, { useRef, useEffect } from 'react';
 
 

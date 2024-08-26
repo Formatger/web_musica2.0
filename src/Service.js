@@ -1,5 +1,6 @@
 import './Estilos/Service.css';
 import { useState, useEffect } from 'react';
+import Badge from './SoundBetterBadge';
 
 
 
@@ -85,6 +86,7 @@ function Service({ }) {
                     </div>
                 </div>
             </div>
+            <Badge />
             <div className="imagen-fondo-2">
             </div>
         </div>
