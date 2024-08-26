@@ -69,6 +69,20 @@
     cursor: pointer;
 }
 
+.badge-img {
+    max-width: 20%;
+    padding-bottom: 4vw;
+  }
+
+  .contenedor-icon .badge-img{
+    max-width: 80px;
+    padding-bottom: 0;
+    width: auto;
+    height: 3.3vw;
+    margin-right: 3vw;
+    cursor: pointer;
+  }
+  
 
 
 @media (max-width:768px) {
@@ -133,6 +147,21 @@
         margin-left: 10px;
     }
 
+    .contenedor-icon .badge-img{
+        padding-bottom: 0;
+        width: 15vw;
+        max-width: 55px;
+        height: 15vw;
+        max-height: 55px;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+ 
+    .badge-img {
+      max-width: 30vw; /* Ajusta el tamaño máximo según sea necesario */
+    }
+  
+  
 
 
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Estilos/About.css';
+import Badge from './SoundBetterBadge';
 
 function About() {
 
@@ -88,6 +89,7 @@ function About() {
                         <div className="contenedor-icon">
                             <img src='/icon/instagram.png' onClick={abrirInstagram} />
                             <img src='/icon/youtube.png' onClick={abrirYouTube} />
+                            <Badge/>
                         </div>
                     </p >
                 </div >
